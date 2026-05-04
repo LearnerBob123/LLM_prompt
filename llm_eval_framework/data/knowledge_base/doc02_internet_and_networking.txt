@@ -1,0 +1,17 @@
+The Internet and Computer Networking
+
+The internet is a global network of interconnected computers that communicate using a standardised set of protocols. Its origins trace back to ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was the first network to implement packet switching, a method of breaking data into small packets sent independently across the network.
+
+The Transmission Control Protocol and Internet Protocol (TCP/IP), developed by Vint Cerf and Bob Kahn in the 1970s, became the foundational communication standard for the internet. TCP ensures reliable delivery of data packets, while IP handles addressing and routing.
+
+The Domain Name System (DNS) translates human-readable domain names like www.example.com into numerical IP addresses that computers use to locate each other. DNS servers are distributed worldwide and form a hierarchical lookup system.
+
+HTTP (Hypertext Transfer Protocol) is the protocol used for transferring web pages over the internet. Tim Berners-Lee invented the World Wide Web in 1989 at CERN, combining HTTP, HTML (Hypertext Markup Language), and URLs (Uniform Resource Locators). The first web browser, WorldWideWeb, was also created by Berners-Lee.
+
+Bandwidth refers to the maximum data transfer rate of a network connection, typically measured in megabits per second (Mbps) or gigabits per second (Gbps). Latency is the delay between sending a request and receiving a response, measured in milliseconds.
+
+Wi-Fi, based on the IEEE 802.11 standard, enables wireless local area networking. Modern Wi-Fi standards (Wi-Fi 6, Wi-Fi 7) offer speeds exceeding 1 Gbps over short distances.
+
+Firewalls and routers manage traffic flow and security at network boundaries. Encryption protocols such as TLS (Transport Layer Security) protect data in transit, forming the basis of HTTPS — the secure version of HTTP used by virtually all modern websites.
+
+The internet now connects over 5 billion people and underpins global commerce, communication, education, and entertainment.

@@ -1,0 +1,19 @@
+Mathematics: Foundations and Key Concepts
+
+Mathematics is the study of numbers, quantities, structures, shapes, and patterns. It is divided into pure mathematics (abstract study) and applied mathematics (practical applications in science and engineering).
+
+Arithmetic is the foundation of mathematics, dealing with the basic operations: addition, subtraction, multiplication, and division. The order of operations (PEMDAS/BODMAS) governs the sequence in which operations are performed.
+
+Algebra extends arithmetic by using symbols (variables) to represent unknown quantities. Linear equations have the form ax + b = 0. Quadratic equations have the form ax² + bx + c = 0 and can be solved using the quadratic formula: x = (−b ± √(b² − 4ac)) / 2a. The discriminant (b² − 4ac) determines the number of real solutions.
+
+Prime numbers are integers greater than 1 that have no positive divisors other than 1 and themselves. Examples: 2, 3, 5, 7, 11, 13... The Fundamental Theorem of Arithmetic states that every integer greater than 1 can be uniquely expressed as a product of prime numbers.
+
+Calculus, developed independently by Isaac Newton and Gottfried Wilhelm Leibniz in the 17th century, is divided into differential calculus (studying rates of change — derivatives) and integral calculus (studying accumulation — integrals). The Fundamental Theorem of Calculus links differentiation and integration.
+
+Statistics is the branch of mathematics dealing with collecting, analysing, and interpreting data. Key concepts include mean (average), median (middle value), mode (most frequent value), standard deviation (spread of data), and probability distributions. The normal distribution (bell curve) describes many natural phenomena.
+
+Probability measures the likelihood of events, ranging from 0 (impossible) to 1 (certain). Bayes' Theorem describes how to update probabilities based on new evidence: P(A|B) = P(B|A) × P(A) / P(B).
+
+Geometry studies shapes, sizes, and properties of figures. Euclidean geometry is based on Euclid's five postulates. The Pythagorean theorem states that in a right triangle, a² + b² = c², where c is the hypotenuse.
+
+Set theory is the foundation of modern mathematics. A set is a collection of distinct objects. Georg Cantor showed that some infinities are larger than others — for example, the set of real numbers is uncountably infinite while the set of natural numbers is countably infinite.

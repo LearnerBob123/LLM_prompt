@@ -1,0 +1,17 @@
+Artificial Intelligence and Machine Learning
+
+Artificial intelligence (AI) is the field of computer science focused on building systems that can perform tasks typically requiring human intelligence, such as recognising speech, making decisions, and understanding language.
+
+Machine learning (ML) is a subfield of AI where systems learn patterns from data rather than being explicitly programmed. The three main types of machine learning are: supervised learning (learning from labelled examples), unsupervised learning (finding patterns in unlabelled data), and reinforcement learning (learning through trial and reward).
+
+Deep learning is a subset of machine learning that uses artificial neural networks with many layers — called deep neural networks — to learn representations of data. Deep learning achieved breakthroughs in image recognition with AlexNet in 2012 and in natural language processing with models like BERT and GPT.
+
+A neural network consists of layers of interconnected nodes (neurons). Each connection has a weight that is adjusted during training using an algorithm called backpropagation, which minimises the difference between predicted and actual outputs using gradient descent.
+
+The Transformer architecture, introduced in the 2017 paper "Attention Is All You Need" by Vaswani et al., revolutionised natural language processing. Transformers use a self-attention mechanism to weigh the importance of different words in a sequence relative to each other.
+
+Large Language Models (LLMs) are Transformer-based models trained on vast text corpora. Examples include GPT-4, LLaMA, Mistral, and Gemini. They can generate coherent text, answer questions, write code, and perform reasoning tasks.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines an LLM with a retrieval system. The model first retrieves relevant documents from a knowledge base, then uses them as context when generating an answer. This reduces hallucination and keeps responses grounded in factual sources.
+
+Hallucination in LLMs refers to the generation of plausible-sounding but factually incorrect information. It remains a key challenge in deploying AI systems reliably.

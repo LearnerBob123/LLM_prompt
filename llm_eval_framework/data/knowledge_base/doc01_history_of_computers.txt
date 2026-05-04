@@ -1,0 +1,15 @@
+History of Computers
+
+The history of computers spans nearly a century of remarkable technological progress. The first general-purpose electronic computer, ENIAC (Electronic Numerical Integrator and Computer), was completed in 1945 at the University of Pennsylvania. It weighed about 30 tons, occupied 1,800 square feet, and used roughly 18,000 vacuum tubes.
+
+Before electronic computers, mechanical calculating devices existed. Charles Babbage designed the Difference Engine and Analytical Engine in the 1800s, though neither was fully built in his lifetime. Ada Lovelace is often credited as the first computer programmer for her work on Babbage's Analytical Engine.
+
+The transistor, invented at Bell Labs in 1947 by John Bardeen, Walter Brattain, and William Shockley, replaced vacuum tubes and enabled smaller, faster, and more reliable computers. By the 1960s, transistors gave way to integrated circuits, which packed multiple transistors onto a single silicon chip.
+
+Gordon Moore, co-founder of Intel, observed in 1965 that the number of transistors on a chip doubled approximately every two years — a prediction known as Moore's Law. This trend held for several decades and drove exponential growth in computing power.
+
+The microprocessor, introduced by Intel with the 4004 chip in 1971, placed an entire CPU on a single chip. This enabled the personal computer revolution of the late 1970s and 1980s. Apple introduced the Apple II in 1977, and IBM launched its first Personal Computer in 1981.
+
+Microsoft Windows, introduced in 1985, brought a graphical user interface to mainstream users. The 1990s saw the rise of laptops, CD-ROMs, and the widespread adoption of the internet. By the 2000s, multi-core processors, solid-state drives, and gigabytes of RAM became standard in consumer devices.
+
+Today, computers are embedded in smartphones, vehicles, medical devices, and household appliances. Quantum computers, which use quantum mechanical phenomena to process information, are an emerging frontier that may solve problems intractable for classical computers.

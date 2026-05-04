@@ -1,0 +1,17 @@
+Economics: Core Concepts
+
+Economics is the social science that studies the production, distribution, and consumption of goods and services. It is broadly divided into microeconomics (behaviour of individuals and firms) and macroeconomics (performance of national and global economies).
+
+Supply and demand are the foundational forces of market economics. The law of demand states that, all else equal, as the price of a good rises, the quantity demanded falls. The law of supply states that as price rises, producers are willing to supply more. The equilibrium price is where the quantity supplied equals the quantity demanded.
+
+Gross Domestic Product (GDP) measures the total monetary value of all goods and services produced within a country's borders in a given period, typically one year. It is one of the primary indicators of economic health. GDP per capita divides a country's GDP by its population to give a rough measure of average standard of living.
+
+Inflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power. It is typically measured by the Consumer Price Index (CPI). Central banks, such as the US Federal Reserve and the European Central Bank, set interest rates to control inflation. Raising interest rates tends to reduce inflation by making borrowing more expensive and slowing spending.
+
+Unemployment is measured as the percentage of the labour force that is jobless and actively seeking employment. Frictional unemployment (between jobs), structural unemployment (skills mismatch), and cyclical unemployment (economic downturns) are the main types.
+
+International trade involves the exchange of goods and services across borders. Comparative advantage is the principle that countries benefit by specialising in producing goods where they have the lowest opportunity cost and trading for others. Tariffs (import taxes) and trade agreements shape international commerce.
+
+Stock markets allow companies to raise capital by issuing shares to the public. Share prices reflect investor expectations about future earnings. A bull market is a period of rising prices; a bear market is a period of declining prices, typically a drop of 20% or more.
+
+The 2008 Global Financial Crisis, triggered by the collapse of the US housing market and the failure of mortgage-backed securities, led to the deepest recession since the Great Depression of the 1930s.

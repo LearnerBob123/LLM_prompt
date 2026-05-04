@@ -1,0 +1,22 @@
+[
+  {"id": "p001", "prompt": "What was ENIAC and when was it completed?", "type": "factual"},
+  {"id": "p002", "prompt": "What is DNS and what does it do?", "type": "factual"},
+  {"id": "p003", "prompt": "What is the Transformer architecture in AI?", "type": "factual"},
+  {"id": "p004", "prompt": "Which is the largest continent by area and population?", "type": "factual"},
+  {"id": "p005", "prompt": "What is the greenhouse effect?", "type": "factual"},
+  {"id": "p006", "prompt": "When did Apollo 11 land on the Moon and who was the first person to walk on it?", "type": "factual"},
+  {"id": "p007", "prompt": "What is GDP and how is it used to measure economic health?", "type": "factual"},
+  {"id": "p008", "prompt": "What is the Pythagorean theorem?", "type": "factual"},
+  {"id": "p009", "prompt": "Why did the development of the transistor matter for the history of computing?", "type": "reasoning"},
+  {"id": "p010", "prompt": "Why might an LLM with a large training dataset still hallucinate facts?", "type": "reasoning"},
+  {"id": "p011", "prompt": "Why do countries near the equator tend to have different seasons than those at higher latitudes?", "type": "reasoning"},
+  {"id": "p012", "prompt": "How does raising interest rates help reduce inflation?", "type": "reasoning"},
+  {"id": "p013", "prompt": "Why is the International Space Station considered a scientific achievement even if it is not on another planet?", "type": "reasoning"},
+  {"id": "p014", "prompt": "How does the immune system recognise a pathogen it has never encountered before?", "type": "reasoning"},
+  {"id": "p015", "prompt": "Is artificial intelligence more of a threat or a benefit to humanity?", "type": "ambiguous"},
+  {"id": "p016", "prompt": "Was European colonisation ultimately positive or negative for the world?", "type": "ambiguous"},
+  {"id": "p017", "prompt": "Should space exploration be prioritised over solving problems on Earth?", "type": "ambiguous"},
+  {"id": "p018", "prompt": "Is free trade always beneficial for all countries involved?", "type": "ambiguous"},
+  {"id": "p019", "prompt": "Can mathematics fully describe reality?", "type": "ambiguous"},
+  {"id": "p020", "prompt": "Is the internet doing more harm than good to society?", "type": "ambiguous"}
+]

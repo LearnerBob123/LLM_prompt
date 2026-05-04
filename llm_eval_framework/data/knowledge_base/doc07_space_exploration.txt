@@ -1,0 +1,15 @@
+Space Exploration
+
+Space exploration began in earnest in the mid-20th century during the Cold War space race between the United States and the Soviet Union. The Soviet Union launched Sputnik 1 on 4 October 1957 — the first artificial satellite to orbit Earth. On 12 April 1961, Soviet cosmonaut Yuri Gagarin became the first human in space aboard Vostok 1, completing one orbit of Earth.
+
+NASA's Apollo programme achieved the first crewed Moon landing when Apollo 11 touched down on the lunar surface on 20 July 1969. Astronaut Neil Armstrong became the first human to walk on the Moon, famously saying "one small step for man, one giant leap for mankind." Twelve astronauts in total walked on the Moon between 1969 and 1972.
+
+The International Space Station (ISS) is a habitable space station orbiting Earth at an altitude of approximately 400 km. It has been continuously inhabited since November 2000 and is a joint project of NASA, Roscosmos, ESA, JAXA, and CSA. Astronauts conduct scientific research aboard the ISS in microgravity conditions.
+
+Mars has been the focus of numerous robotic missions. NASA's Mars rovers include Sojourner (1997), Spirit and Opportunity (2004), Curiosity (2012), and Perseverance (2021). Perseverance is searching for signs of ancient microbial life and collecting rock samples for future return to Earth.
+
+The Hubble Space Telescope, launched in 1990, has provided stunning images of distant galaxies, nebulae, and star-forming regions. The James Webb Space Telescope (JWST), launched in December 2021, observes in infrared and can see farther back in time than any previous telescope.
+
+SpaceX, founded by Elon Musk in 2002, became the first private company to send astronauts to the ISS in 2020, using the Crew Dragon capsule. SpaceX's Starship is being developed as a fully reusable launch system for missions to the Moon and Mars.
+
+The Voyager 1 spacecraft, launched in 1977, crossed into interstellar space in 2012, making it the most distant human-made object from Earth.

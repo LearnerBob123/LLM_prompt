@@ -1,0 +1,283 @@
+{
+  "model_score": 0.5092,
+  "fast_mode": true,
+  "generator_model": "mistral",
+  "claim_extractor_model": "qwen2.5",
+  "prompts": [
+    {
+      "id": "p001",
+      "type": "factual",
+      "prompt": "What was ENIAC and when was it completed?",
+      "response": " ENIAC (Electronic Numerical Integrator and Computer) was the first general-purpose electronic computer, completed in 1945 at the University of Pennsylvania. It weighed about 30 tons, occupied 1,800 square feet, and used roughly 18,000 vacuum tubes.",
+      "context": [
+        "History of Computers\n\nThe history of computers spans nearly a century of remarkable technological progress. The first general-purpose electronic computer, ENIAC (Electronic Numerical Integrator and Computer), was completed in 1945 at the University of Pennsylvania. It weighed about 30 tons, occupied 1,800 square feet, and used roughly 18,000 vacuum tubes.\n\nBefore electronic computers, mechanical calculating devices existed. Charles Babbage designed the Difference Engine and Analytical Engine in the 1800s, though neither was fully built in his lifetime. Ada Lovelace is often credited as the first computer programmer for her work on Babbage's Analytical Engine.\n\nThe transistor, invented at Bell Labs in 1947 by John Bardeen, Walter Brattain, and William Shockley, replaced vacuum tubes and enabled smaller, faster, and more reliable computers. By the 1960s, transistors gave way to integrated circuits, which packed multiple transistors onto a single silicon chip.\n\nGordon Moore, co-founder of Intel, observed in 1965 that the number of transistors on a chip doubled approximately every two years — a prediction known as Moore's Law. This trend held for several decades and drove exponential growth in computing power.\n\nThe microprocessor, introduced by Intel with the 4004 chip in 1971, placed an entire CPU on a single chip. This enabled the personal computer revolution of the late 1970s and 1980s. Apple introduced the Apple II in 1977, and IBM launched its first Personal Computer in 1981.\n\nMicrosoft Windows, introduced in 1985, brought a graphical user interface to mainstream users. The 1990s saw the rise of laptops, CD-ROMs, and the widespread adoption of the internet. By the 2000s, multi-core processors, solid-state drives, and gigabytes of RAM became standard in consumer devices.\n\nToday, computers are embedded in smartphones, vehicles, medical devices, and household appliances. Quantum computers, which use quantum mechanical phenomena to process information, are an emerging frontier that may solve problems intractable for classical computers.",
+        "World History: Key Events and Eras\n\nHuman civilisation has developed over approximately 12,000 years since the Agricultural Revolution, when early humans transitioned from nomadic hunter-gatherers to settled farming communities around 10,000 BCE.\n\nAmong the earliest civilisations were those in Mesopotamia (present-day Iraq), Egypt, the Indus Valley (present-day Pakistan and India), and China. Mesopotamia, between the Tigris and Euphrates rivers, is often called the \"cradle of civilisation\" and produced early writing (cuneiform), law codes (including Hammurabi's Code, c. 1754 BCE), and city-states.\n\nAncient Greece (c. 800–146 BCE) laid intellectual foundations for Western philosophy, democracy, science, and the arts. Athens introduced one of the earliest forms of democratic governance. The conquests of Alexander the Great spread Greek culture across the Middle East, Persia, and into India.\n\nThe Roman Empire at its peak controlled much of Europe, North Africa, and the Middle East. The Western Roman Empire fell in 476 CE, traditionally marking the start of the Middle Ages. The Eastern Roman (Byzantine) Empire continued until 1453 CE.\n\nThe Black Death (bubonic plague) of the 14th century killed an estimated 30–60% of Europe's population. The Renaissance (14th–17th centuries) followed, bringing renewed interest in arts, science, and humanism.\n\nEuropean colonisation from the 15th century onward had profound global impacts, including the Atlantic slave trade, which forcibly transported an estimated 12.5 million Africans to the Americas between the 16th and 19th centuries.\n\nThe Industrial Revolution, beginning in Britain around 1760, transformed manufacturing through mechanisation, steam power, and factory production, reshaping economies and societies worldwide.\n\nWorld War I (1914–1918) and World War II (1939–1945) were the deadliest conflicts in human history. WWII resulted in approximately 70–85 million deaths. The Holocaust, perpetrated by Nazi Germany, killed approximately 6 million Jewish people and millions of others.\n\nThe Cold War (1947–1991) was a geopolitical rivalry between the United States and the Soviet Union. The dissolution of the USSR in 1991 marked the end of the Cold War era.",
+        "The Internet and Computer Networking\n\nThe internet is a global network of interconnected computers that communicate using a standardised set of protocols. Its origins trace back to ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was the first network to implement packet switching, a method of breaking data into small packets sent independently across the network.\n\nThe Transmission Control Protocol and Internet Protocol (TCP/IP), developed by Vint Cerf and Bob Kahn in the 1970s, became the foundational communication standard for the internet. TCP ensures reliable delivery of data packets, while IP handles addressing and routing.\n\nThe Domain Name System (DNS) translates human-readable domain names like www.example.com into numerical IP addresses that computers use to locate each other. DNS servers are distributed worldwide and form a hierarchical lookup system.\n\nHTTP (Hypertext Transfer Protocol) is the protocol used for transferring web pages over the internet. Tim Berners-Lee invented the World Wide Web in 1989 at CERN, combining HTTP, HTML (Hypertext Markup Language), and URLs (Uniform Resource Locators). The first web browser, WorldWideWeb, was also created by Berners-Lee.\n\nBandwidth refers to the maximum data transfer rate of a network connection, typically measured in megabits per second (Mbps) or gigabits per second (Gbps). Latency is the delay between sending a request and receiving a response, measured in milliseconds.\n\nWi-Fi, based on the IEEE 802.11 standard, enables wireless local area networking. Modern Wi-Fi standards (Wi-Fi 6, Wi-Fi 7) offer speeds exceeding 1 Gbps over short distances.\n\nFirewalls and routers manage traffic flow and security at network boundaries. Encryption protocols such as TLS (Transport Layer Security) protect data in transit, forming the basis of HTTPS — the secure version of HTTP used by virtually all modern websites.\n\nThe internet now connects over 5 billion people and underpins global commerce, communication, education, and entertainment."
+      ],
+      "claims": [
+        {
+          "text": "ENIAC (Electronic Numerical Integrator and Computer) was the first general-purpose electronic computer.",
+          "faithfulness": 0.0006,
+          "confidence": 0.9867,
+          "parametric": 0.5,
+          "contradiction": 0.0003,
+          "consistency": 1.0,
+          "franq_score": 0.5001,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "ENIAC was completed in 1945 at the University of Pennsylvania.",
+          "faithfulness": 0.0006,
+          "confidence": 0.9867,
+          "parametric": 0.5,
+          "contradiction": 0.0002,
+          "consistency": 1.0,
+          "franq_score": 0.5002,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "ENIAC weighed about 30 tons.",
+          "faithfulness": 0.0005,
+          "confidence": 0.9867,
+          "parametric": 0.5,
+          "contradiction": 0.0003,
+          "consistency": 1.0,
+          "franq_score": 0.5001,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "ENIAC occupied 1,800 square feet.",
+          "faithfulness": 0.0003,
+          "confidence": 0.9867,
+          "parametric": 0.5,
+          "contradiction": 0.0004,
+          "consistency": 1.0,
+          "franq_score": 0.4999,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "ENIAC used roughly 18,000 vacuum tubes.",
+          "faithfulness": 0.0003,
+          "confidence": 0.9867,
+          "parametric": 0.5,
+          "contradiction": 0.0005,
+          "consistency": 1.0,
+          "franq_score": 0.4999,
+          "classification": "🤔 Lucky Correct"
+        }
+      ],
+      "prompt_score": 0.5,
+      "grounding_score": 0.0005,
+      "hallucination_rate": 0.0,
+      "calibration": 0.0,
+      "consistency_score": 1.0,
+      "relevance_score": 0.7722,
+      "completeness_score": 0.9935,
+      "robustness_score": null
+    },
+    {
+      "id": "p002",
+      "type": "factual",
+      "prompt": "What is DNS and what does it do?",
+      "response": " The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or other resources connected to the internet or a private network. It translates human-readable domain names like www.example.com into numerical IP addresses that computers use to locate each other. Essentially, DNS serves as the phonebook of the internet by converting easy-to-remember domain names into IP addresses that computers can understand.",
+      "context": [
+        "The Internet and Computer Networking\n\nThe internet is a global network of interconnected computers that communicate using a standardised set of protocols. Its origins trace back to ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was the first network to implement packet switching, a method of breaking data into small packets sent independently across the network.\n\nThe Transmission Control Protocol and Internet Protocol (TCP/IP), developed by Vint Cerf and Bob Kahn in the 1970s, became the foundational communication standard for the internet. TCP ensures reliable delivery of data packets, while IP handles addressing and routing.\n\nThe Domain Name System (DNS) translates human-readable domain names like www.example.com into numerical IP addresses that computers use to locate each other. DNS servers are distributed worldwide and form a hierarchical lookup system.\n\nHTTP (Hypertext Transfer Protocol) is the protocol used for transferring web pages over the internet. Tim Berners-Lee invented the World Wide Web in 1989 at CERN, combining HTTP, HTML (Hypertext Markup Language), and URLs (Uniform Resource Locators). The first web browser, WorldWideWeb, was also created by Berners-Lee.\n\nBandwidth refers to the maximum data transfer rate of a network connection, typically measured in megabits per second (Mbps) or gigabits per second (Gbps). Latency is the delay between sending a request and receiving a response, measured in milliseconds.\n\nWi-Fi, based on the IEEE 802.11 standard, enables wireless local area networking. Modern Wi-Fi standards (Wi-Fi 6, Wi-Fi 7) offer speeds exceeding 1 Gbps over short distances.\n\nFirewalls and routers manage traffic flow and security at network boundaries. Encryption protocols such as TLS (Transport Layer Security) protect data in transit, forming the basis of HTTPS — the secure version of HTTP used by virtually all modern websites.\n\nThe internet now connects over 5 billion people and underpins global commerce, communication, education, and entertainment.",
+        "Artificial Intelligence and Machine Learning\n\nArtificial intelligence (AI) is the field of computer science focused on building systems that can perform tasks typically requiring human intelligence, such as recognising speech, making decisions, and understanding language.\n\nMachine learning (ML) is a subfield of AI where systems learn patterns from data rather than being explicitly programmed. The three main types of machine learning are: supervised learning (learning from labelled examples), unsupervised learning (finding patterns in unlabelled data), and reinforcement learning (learning through trial and reward).\n\nDeep learning is a subset of machine learning that uses artificial neural networks with many layers — called deep neural networks — to learn representations of data. Deep learning achieved breakthroughs in image recognition with AlexNet in 2012 and in natural language processing with models like BERT and GPT.\n\nA neural network consists of layers of interconnected nodes (neurons). Each connection has a weight that is adjusted during training using an algorithm called backpropagation, which minimises the difference between predicted and actual outputs using gradient descent.\n\nThe Transformer architecture, introduced in the 2017 paper \"Attention Is All You Need\" by Vaswani et al., revolutionised natural language processing. Transformers use a self-attention mechanism to weigh the importance of different words in a sequence relative to each other.\n\nLarge Language Models (LLMs) are Transformer-based models trained on vast text corpora. Examples include GPT-4, LLaMA, Mistral, and Gemini. They can generate coherent text, answer questions, write code, and perform reasoning tasks.\n\nRetrieval-Augmented Generation (RAG) is a technique that combines an LLM with a retrieval system. The model first retrieves relevant documents from a knowledge base, then uses them as context when generating an answer. This reduces hallucination and keeps responses grounded in factual sources.\n\nHallucination in LLMs refers to the generation of plausible-sounding but factually incorrect information. It remains a key challenge in deploying AI systems reliably.",
+        "Economics: Core Concepts\n\nEconomics is the social science that studies the production, distribution, and consumption of goods and services. It is broadly divided into microeconomics (behaviour of individuals and firms) and macroeconomics (performance of national and global economies).\n\nSupply and demand are the foundational forces of market economics. The law of demand states that, all else equal, as the price of a good rises, the quantity demanded falls. The law of supply states that as price rises, producers are willing to supply more. The equilibrium price is where the quantity supplied equals the quantity demanded.\n\nGross Domestic Product (GDP) measures the total monetary value of all goods and services produced within a country's borders in a given period, typically one year. It is one of the primary indicators of economic health. GDP per capita divides a country's GDP by its population to give a rough measure of average standard of living.\n\nInflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power. It is typically measured by the Consumer Price Index (CPI). Central banks, such as the US Federal Reserve and the European Central Bank, set interest rates to control inflation. Raising interest rates tends to reduce inflation by making borrowing more expensive and slowing spending.\n\nUnemployment is measured as the percentage of the labour force that is jobless and actively seeking employment. Frictional unemployment (between jobs), structural unemployment (skills mismatch), and cyclical unemployment (economic downturns) are the main types.\n\nInternational trade involves the exchange of goods and services across borders. Comparative advantage is the principle that countries benefit by specialising in producing goods where they have the lowest opportunity cost and trading for others. Tariffs (import taxes) and trade agreements shape international commerce.\n\nStock markets allow companies to raise capital by issuing shares to the public. Share prices reflect investor expectations about future earnings. A bull market is a period of rising prices; a bear market is a period of declining prices, typically a drop of 20% or more.\n\nThe 2008 Global Financial Crisis, triggered by the collapse of the US housing market and the failure of mortgage-backed securities, led to the deepest recession since the Great Depression of the 1930s."
+      ],
+      "claims": [
+        {
+          "text": "The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or other resources connected to the internet or a private network.",
+          "faithfulness": 0.0009,
+          "confidence": 0.8477,
+          "parametric": 0.5,
+          "contradiction": 0.0008,
+          "consistency": 1.0,
+          "franq_score": 0.4999,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "It translates human-readable domain names like www.example.com into numerical IP addresses that computers use to locate each other.",
+          "faithfulness": 0.0011,
+          "confidence": 0.8477,
+          "parametric": 0.5,
+          "contradiction": 0.0005,
+          "consistency": 1.0,
+          "franq_score": 0.5001,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "Essentially, DNS serves as the phonebook of the internet by converting easy-to-remember domain names into IP addresses that computers can understand.",
+          "faithfulness": 0.0014,
+          "confidence": 0.8477,
+          "parametric": 0.5,
+          "contradiction": 0.0004,
+          "consistency": 1.0,
+          "franq_score": 0.5003,
+          "classification": "🤔 Lucky Correct"
+        }
+      ],
+      "prompt_score": 0.5001,
+      "grounding_score": 0.0011,
+      "hallucination_rate": 0.0,
+      "calibration": 0.0,
+      "consistency_score": 1.0,
+      "relevance_score": 0.8343,
+      "completeness_score": 0.8993,
+      "robustness_score": null
+    },
+    {
+      "id": "p003",
+      "type": "factual",
+      "prompt": "What is the Transformer architecture in AI?",
+      "response": " The Transformer architecture is a model introduced in the 2017 paper \"Attention Is All You Need\" by Vaswani et al. It revolutionized natural language processing (NLP) by using a self-attention mechanism to weigh the importance of different words in a sequence relative to each other. This allows Transformers to better understand and generate coherent text, answer questions, write code, and perform reasoning tasks compared to previous NLP models. Transformers are based on deep learning principles and use multiple layers of interconnected nodes (neurons) to learn patterns from data.",
+      "context": [
+        "Artificial Intelligence and Machine Learning\n\nArtificial intelligence (AI) is the field of computer science focused on building systems that can perform tasks typically requiring human intelligence, such as recognising speech, making decisions, and understanding language.\n\nMachine learning (ML) is a subfield of AI where systems learn patterns from data rather than being explicitly programmed. The three main types of machine learning are: supervised learning (learning from labelled examples), unsupervised learning (finding patterns in unlabelled data), and reinforcement learning (learning through trial and reward).\n\nDeep learning is a subset of machine learning that uses artificial neural networks with many layers — called deep neural networks — to learn representations of data. Deep learning achieved breakthroughs in image recognition with AlexNet in 2012 and in natural language processing with models like BERT and GPT.\n\nA neural network consists of layers of interconnected nodes (neurons). Each connection has a weight that is adjusted during training using an algorithm called backpropagation, which minimises the difference between predicted and actual outputs using gradient descent.\n\nThe Transformer architecture, introduced in the 2017 paper \"Attention Is All You Need\" by Vaswani et al., revolutionised natural language processing. Transformers use a self-attention mechanism to weigh the importance of different words in a sequence relative to each other.\n\nLarge Language Models (LLMs) are Transformer-based models trained on vast text corpora. Examples include GPT-4, LLaMA, Mistral, and Gemini. They can generate coherent text, answer questions, write code, and perform reasoning tasks.\n\nRetrieval-Augmented Generation (RAG) is a technique that combines an LLM with a retrieval system. The model first retrieves relevant documents from a knowledge base, then uses them as context when generating an answer. This reduces hallucination and keeps responses grounded in factual sources.\n\nHallucination in LLMs refers to the generation of plausible-sounding but factually incorrect information. It remains a key challenge in deploying AI systems reliably.",
+        "History of Computers\n\nThe history of computers spans nearly a century of remarkable technological progress. The first general-purpose electronic computer, ENIAC (Electronic Numerical Integrator and Computer), was completed in 1945 at the University of Pennsylvania. It weighed about 30 tons, occupied 1,800 square feet, and used roughly 18,000 vacuum tubes.\n\nBefore electronic computers, mechanical calculating devices existed. Charles Babbage designed the Difference Engine and Analytical Engine in the 1800s, though neither was fully built in his lifetime. Ada Lovelace is often credited as the first computer programmer for her work on Babbage's Analytical Engine.\n\nThe transistor, invented at Bell Labs in 1947 by John Bardeen, Walter Brattain, and William Shockley, replaced vacuum tubes and enabled smaller, faster, and more reliable computers. By the 1960s, transistors gave way to integrated circuits, which packed multiple transistors onto a single silicon chip.\n\nGordon Moore, co-founder of Intel, observed in 1965 that the number of transistors on a chip doubled approximately every two years — a prediction known as Moore's Law. This trend held for several decades and drove exponential growth in computing power.\n\nThe microprocessor, introduced by Intel with the 4004 chip in 1971, placed an entire CPU on a single chip. This enabled the personal computer revolution of the late 1970s and 1980s. Apple introduced the Apple II in 1977, and IBM launched its first Personal Computer in 1981.\n\nMicrosoft Windows, introduced in 1985, brought a graphical user interface to mainstream users. The 1990s saw the rise of laptops, CD-ROMs, and the widespread adoption of the internet. By the 2000s, multi-core processors, solid-state drives, and gigabytes of RAM became standard in consumer devices.\n\nToday, computers are embedded in smartphones, vehicles, medical devices, and household appliances. Quantum computers, which use quantum mechanical phenomena to process information, are an emerging frontier that may solve problems intractable for classical computers.",
+        "Human Biology and Anatomy\n\nThe human body is composed of approximately 37 trillion cells, each performing specialised functions. Cells are the basic structural and functional units of life. Groups of similar cells form tissues; tissues form organs; organs form organ systems.\n\nThe circulatory system consists of the heart, blood vessels, and blood. The heart is a muscular organ that pumps blood through a network of arteries, veins, and capillaries. A healthy adult heart beats 60–100 times per minute and pumps about 5 litres of blood per minute. Blood carries oxygen, nutrients, hormones, and waste products throughout the body.\n\nThe respiratory system includes the lungs, trachea, bronchi, and diaphragm. Oxygen from inhaled air passes through the alveoli (tiny air sacs) into the bloodstream, while carbon dioxide is expelled. An adult breathes approximately 12–20 times per minute at rest.\n\nThe digestive system breaks food down into nutrients. It begins at the mouth and includes the oesophagus, stomach, small intestine, and large intestine. The small intestine is the primary site of nutrient absorption; the large intestine absorbs water and forms faeces.\n\nThe nervous system comprises the brain, spinal cord, and peripheral nerves. The brain has roughly 86 billion neurons. Neurons communicate via electrical signals (action potentials) and chemical messengers (neurotransmitters) across synapses.\n\nThe brain is divided into regions with specialised functions: the cerebral cortex handles thinking, language, and voluntary movement; the cerebellum coordinates balance and motor skills; the brainstem controls basic functions such as breathing and heart rate.\n\nThe skeletal system provides structure and protection. Adults have 206 bones. Bones store calcium and phosphorus, produce blood cells in the marrow, and anchor muscles via tendons.\n\nThe immune system defends the body against pathogens. White blood cells, antibodies, and the lymphatic system work together to identify and destroy bacteria, viruses, and other threats. Vaccines train the immune system by exposing it to a harmless form of a pathogen."
+      ],
+      "claims": [
+        {
+          "text": "The Transformer architecture is a model introduced in the 2017 paper 'Attention Is All You Need' by Vaswani et al.",
+          "faithfulness": 0.0125,
+          "confidence": 0.81,
+          "parametric": 0.5,
+          "contradiction": 0.0006,
+          "consistency": 1.0,
+          "franq_score": 0.5036,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "It revolutionized natural language processing (NLP) by using a self-attention mechanism to weigh the importance of different words in a sequence relative to each other.",
+          "faithfulness": 0.8826,
+          "confidence": 0.81,
+          "parametric": 0.5,
+          "contradiction": 0.0046,
+          "consistency": 1.0,
+          "franq_score": 0.77,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "This allows Transformers to better understand and generate coherent text, answer questions, write code, and perform reasoning tasks compared to previous NLP models.",
+          "faithfulness": 0.0007,
+          "confidence": 0.81,
+          "parametric": 0.5,
+          "contradiction": 0.0003,
+          "consistency": 1.0,
+          "franq_score": 0.5001,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "Transformers are based on deep learning principles.",
+          "faithfulness": 0.0074,
+          "confidence": 0.81,
+          "parametric": 0.5,
+          "contradiction": 0.0003,
+          "consistency": 1.0,
+          "franq_score": 0.5021,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "Transformers use multiple layers of interconnected nodes (neurons) to learn patterns from data.",
+          "faithfulness": 0.1385,
+          "confidence": 0.81,
+          "parametric": 0.5,
+          "contradiction": 0.0008,
+          "consistency": 1.0,
+          "franq_score": 0.5425,
+          "classification": "🤔 Lucky Correct"
+        }
+      ],
+      "prompt_score": 0.5637,
+      "grounding_score": 0.2083,
+      "hallucination_rate": 0.0,
+      "calibration": 0.0,
+      "consistency_score": 1.0,
+      "relevance_score": 0.6225,
+      "completeness_score": 0.8375,
+      "robustness_score": null
+    },
+    {
+      "id": "p004",
+      "type": "factual",
+      "prompt": "Which is the largest continent by area and population?",
+      "response": " The largest continent by both area and population is Asia.",
+      "context": [
+        "World Geography\n\nEarth is divided into seven continents: Africa, Antarctica, Asia, Australia (Oceania), Europe, North America, and South America. Asia is the largest continent by both area and population. Antarctica is the coldest, driest, and windiest continent and has no permanent human inhabitants.\n\nThe world has five oceans: the Pacific, Atlantic, Indian, Southern, and Arctic. The Pacific Ocean is the largest, covering more area than all land on Earth combined. The Arctic Ocean is the smallest and shallowest.\n\nRussia is the largest country by land area, spanning 17.1 million square kilometres and crossing 11 time zones. The Vatican City is the smallest country in the world, located within Rome, Italy.\n\nThe equator is an imaginary line that divides Earth into the Northern and Southern Hemispheres. Countries on the equator include Ecuador, Colombia, Brazil, Kenya, and Indonesia. The equatorial region generally has a tropical climate with high temperatures and rainfall year-round.\n\nMount Everest, located in the Himalayas on the border of Nepal and Tibet, is the world's highest peak at 8,849 metres above sea level. The Mariana Trench in the Pacific Ocean is the deepest point on Earth at approximately 11,034 metres below sea level.\n\nThe Amazon River in South America is the largest river by discharge volume. The Nile River in Africa has traditionally been considered the longest river, though some measurements give that distinction to the Amazon. The Amazon Basin contains the world's largest tropical rainforest.\n\nThe Sahara Desert in northern Africa is the world's largest hot desert, covering about 9 million square kilometres. The Antarctic Ice Sheet is the largest cold desert. Deserts receive less than 250 mm of precipitation per year.\n\nThe International Date Line runs roughly along the 180° meridian in the Pacific Ocean. Crossing it travelling eastward subtracts one calendar day; travelling westward adds one day.",
+        "Climate, Weather, and the Environment\n\nWeather refers to short-term atmospheric conditions such as temperature, humidity, wind, and precipitation. Climate is the long-term average of weather patterns in a region, typically measured over 30 years.\n\nThe greenhouse effect is a natural process in which certain gases in Earth's atmosphere — including carbon dioxide (CO2), methane (CH4), and water vapour — trap heat from the sun, keeping the planet warm enough to support life. Without the natural greenhouse effect, Earth's average temperature would be approximately -18°C instead of +15°C.\n\nHuman activities, particularly the burning of fossil fuels (coal, oil, and natural gas) and deforestation, have increased atmospheric CO2 concentrations from about 280 parts per million (ppm) before industrialisation to over 420 ppm today. This enhanced greenhouse effect is the primary driver of global warming.\n\nGlobal average surface temperature has risen approximately 1.1°C above pre-industrial levels as of 2023, according to the Intergovernmental Panel on Climate Change (IPCC). The IPCC's 1.5°C target, established in the Paris Agreement of 2015, aims to limit the most severe climate impacts.\n\nClimate zones divide Earth into regions with similar climate characteristics: tropical (near the equator), arid/desert, temperate (mid-latitudes), continental, and polar (near the poles). Each zone supports distinct ecosystems and biodiversity.\n\nSeasons occur because Earth's axis is tilted at 23.5° relative to its orbit. When the Northern Hemisphere tilts toward the sun, it experiences summer; when it tilts away, it experiences winter. The Southern Hemisphere's seasons are opposite to the Northern Hemisphere's.\n\nPolar ice sheets in Greenland and Antarctica contain about 99% of the world's freshwater ice. Their melting contributes to sea level rise, which threatens low-lying coastal areas. Current projections suggest global mean sea level could rise between 0.3 and 1 metre by 2100.\n\nExtreme weather events — including heat waves, droughts, heavy rainfall, and intense hurricanes — are becoming more frequent and severe due to climate change.",
+        "Economics: Core Concepts\n\nEconomics is the social science that studies the production, distribution, and consumption of goods and services. It is broadly divided into microeconomics (behaviour of individuals and firms) and macroeconomics (performance of national and global economies).\n\nSupply and demand are the foundational forces of market economics. The law of demand states that, all else equal, as the price of a good rises, the quantity demanded falls. The law of supply states that as price rises, producers are willing to supply more. The equilibrium price is where the quantity supplied equals the quantity demanded.\n\nGross Domestic Product (GDP) measures the total monetary value of all goods and services produced within a country's borders in a given period, typically one year. It is one of the primary indicators of economic health. GDP per capita divides a country's GDP by its population to give a rough measure of average standard of living.\n\nInflation is the rate at which the general level of prices for goods and services rises, eroding purchasing power. It is typically measured by the Consumer Price Index (CPI). Central banks, such as the US Federal Reserve and the European Central Bank, set interest rates to control inflation. Raising interest rates tends to reduce inflation by making borrowing more expensive and slowing spending.\n\nUnemployment is measured as the percentage of the labour force that is jobless and actively seeking employment. Frictional unemployment (between jobs), structural unemployment (skills mismatch), and cyclical unemployment (economic downturns) are the main types.\n\nInternational trade involves the exchange of goods and services across borders. Comparative advantage is the principle that countries benefit by specialising in producing goods where they have the lowest opportunity cost and trading for others. Tariffs (import taxes) and trade agreements shape international commerce.\n\nStock markets allow companies to raise capital by issuing shares to the public. Share prices reflect investor expectations about future earnings. A bull market is a period of rising prices; a bear market is a period of declining prices, typically a drop of 20% or more.\n\nThe 2008 Global Financial Crisis, triggered by the collapse of the US housing market and the failure of mortgage-backed securities, led to the deepest recession since the Great Depression of the 1930s."
+      ],
+      "claims": [
+        {
+          "text": "Asia is the largest continent by both area and population.",
+          "faithfulness": 0.1737,
+          "confidence": 0.8454,
+          "parametric": 0.5,
+          "contradiction": 0.1387,
+          "consistency": 1.0,
+          "franq_score": 0.4823,
+          "classification": "🤔 Lucky Correct"
+        }
+      ],
+      "prompt_score": 0.4823,
+      "grounding_score": 0.1737,
+      "hallucination_rate": 0.0,
+      "calibration": 0.0,
+      "consistency_score": 1.0,
+      "relevance_score": 0.8177,
+      "completeness_score": 0.9663,
+      "robustness_score": null
+    },
+    {
+      "id": "p005",
+      "type": "factual",
+      "prompt": "What is the greenhouse effect?",
+      "response": " The greenhouse effect is a natural process in which certain gases in Earth's atmosphere trap heat from the sun, keeping the planet warm enough to support life. These gases include carbon dioxide (CO2), methane (CH4), and water vapor. Without the natural greenhouse effect, Earth's average temperature would be approximately -18°C instead of +15°C.",
+      "context": [
+        "Climate, Weather, and the Environment\n\nWeather refers to short-term atmospheric conditions such as temperature, humidity, wind, and precipitation. Climate is the long-term average of weather patterns in a region, typically measured over 30 years.\n\nThe greenhouse effect is a natural process in which certain gases in Earth's atmosphere — including carbon dioxide (CO2), methane (CH4), and water vapour — trap heat from the sun, keeping the planet warm enough to support life. Without the natural greenhouse effect, Earth's average temperature would be approximately -18°C instead of +15°C.\n\nHuman activities, particularly the burning of fossil fuels (coal, oil, and natural gas) and deforestation, have increased atmospheric CO2 concentrations from about 280 parts per million (ppm) before industrialisation to over 420 ppm today. This enhanced greenhouse effect is the primary driver of global warming.\n\nGlobal average surface temperature has risen approximately 1.1°C above pre-industrial levels as of 2023, according to the Intergovernmental Panel on Climate Change (IPCC). The IPCC's 1.5°C target, established in the Paris Agreement of 2015, aims to limit the most severe climate impacts.\n\nClimate zones divide Earth into regions with similar climate characteristics: tropical (near the equator), arid/desert, temperate (mid-latitudes), continental, and polar (near the poles). Each zone supports distinct ecosystems and biodiversity.\n\nSeasons occur because Earth's axis is tilted at 23.5° relative to its orbit. When the Northern Hemisphere tilts toward the sun, it experiences summer; when it tilts away, it experiences winter. The Southern Hemisphere's seasons are opposite to the Northern Hemisphere's.\n\nPolar ice sheets in Greenland and Antarctica contain about 99% of the world's freshwater ice. Their melting contributes to sea level rise, which threatens low-lying coastal areas. Current projections suggest global mean sea level could rise between 0.3 and 1 metre by 2100.\n\nExtreme weather events — including heat waves, droughts, heavy rainfall, and intense hurricanes — are becoming more frequent and severe due to climate change.",
+        "World Geography\n\nEarth is divided into seven continents: Africa, Antarctica, Asia, Australia (Oceania), Europe, North America, and South America. Asia is the largest continent by both area and population. Antarctica is the coldest, driest, and windiest continent and has no permanent human inhabitants.\n\nThe world has five oceans: the Pacific, Atlantic, Indian, Southern, and Arctic. The Pacific Ocean is the largest, covering more area than all land on Earth combined. The Arctic Ocean is the smallest and shallowest.\n\nRussia is the largest country by land area, spanning 17.1 million square kilometres and crossing 11 time zones. The Vatican City is the smallest country in the world, located within Rome, Italy.\n\nThe equator is an imaginary line that divides Earth into the Northern and Southern Hemispheres. Countries on the equator include Ecuador, Colombia, Brazil, Kenya, and Indonesia. The equatorial region generally has a tropical climate with high temperatures and rainfall year-round.\n\nMount Everest, located in the Himalayas on the border of Nepal and Tibet, is the world's highest peak at 8,849 metres above sea level. The Mariana Trench in the Pacific Ocean is the deepest point on Earth at approximately 11,034 metres below sea level.\n\nThe Amazon River in South America is the largest river by discharge volume. The Nile River in Africa has traditionally been considered the longest river, though some measurements give that distinction to the Amazon. The Amazon Basin contains the world's largest tropical rainforest.\n\nThe Sahara Desert in northern Africa is the world's largest hot desert, covering about 9 million square kilometres. The Antarctic Ice Sheet is the largest cold desert. Deserts receive less than 250 mm of precipitation per year.\n\nThe International Date Line runs roughly along the 180° meridian in the Pacific Ocean. Crossing it travelling eastward subtracts one calendar day; travelling westward adds one day.",
+        "The Internet and Computer Networking\n\nThe internet is a global network of interconnected computers that communicate using a standardised set of protocols. Its origins trace back to ARPANET, a project funded by the United States Department of Defense in the late 1960s. ARPANET was the first network to implement packet switching, a method of breaking data into small packets sent independently across the network.\n\nThe Transmission Control Protocol and Internet Protocol (TCP/IP), developed by Vint Cerf and Bob Kahn in the 1970s, became the foundational communication standard for the internet. TCP ensures reliable delivery of data packets, while IP handles addressing and routing.\n\nThe Domain Name System (DNS) translates human-readable domain names like www.example.com into numerical IP addresses that computers use to locate each other. DNS servers are distributed worldwide and form a hierarchical lookup system.\n\nHTTP (Hypertext Transfer Protocol) is the protocol used for transferring web pages over the internet. Tim Berners-Lee invented the World Wide Web in 1989 at CERN, combining HTTP, HTML (Hypertext Markup Language), and URLs (Uniform Resource Locators). The first web browser, WorldWideWeb, was also created by Berners-Lee.\n\nBandwidth refers to the maximum data transfer rate of a network connection, typically measured in megabits per second (Mbps) or gigabits per second (Gbps). Latency is the delay between sending a request and receiving a response, measured in milliseconds.\n\nWi-Fi, based on the IEEE 802.11 standard, enables wireless local area networking. Modern Wi-Fi standards (Wi-Fi 6, Wi-Fi 7) offer speeds exceeding 1 Gbps over short distances.\n\nFirewalls and routers manage traffic flow and security at network boundaries. Encryption protocols such as TLS (Transport Layer Security) protect data in transit, forming the basis of HTTPS — the secure version of HTTP used by virtually all modern websites.\n\nThe internet now connects over 5 billion people and underpins global commerce, communication, education, and entertainment."
+      ],
+      "claims": [
+        {
+          "text": "The greenhouse effect is a natural process in which certain gases in Earth's atmosphere trap heat from the sun.",
+          "faithfulness": 0.0002,
+          "confidence": 0.961,
+          "parametric": 0.5,
+          "contradiction": 0.0004,
+          "consistency": 1.0,
+          "franq_score": 0.4999,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "These gases include carbon dioxide (CO2), methane (CH4), and water vapor.",
+          "faithfulness": 0.0001,
+          "confidence": 0.961,
+          "parametric": 0.5,
+          "contradiction": 0.0004,
+          "consistency": 1.0,
+          "franq_score": 0.4998,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "Without the natural greenhouse effect, Earth's average temperature would be approximately -18°C instead of +15°C.",
+          "faithfulness": 0.0001,
+          "confidence": 0.961,
+          "parametric": 0.5,
+          "contradiction": 0.0014,
+          "consistency": 1.0,
+          "franq_score": 0.4993,
+          "classification": "🤔 Lucky Correct"
+        }
+      ],
+      "prompt_score": 0.4997,
+      "grounding_score": 0.0001,
+      "hallucination_rate": 0.0,
+      "calibration": 0.0,
+      "consistency_score": 1.0,
+      "relevance_score": 0.7769,
+      "completeness_score": 0.9667,
+      "robustness_score": null
+    }
+  ]
+}

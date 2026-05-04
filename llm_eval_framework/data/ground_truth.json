@@ -1,0 +1,10 @@
+{
+  "p001": "ENIAC (Electronic Numerical Integrator and Computer) was the first general-purpose electronic computer, completed in 1945 at the University of Pennsylvania. It weighed about 30 tons and used roughly 18,000 vacuum tubes.",
+  "p002": "DNS (Domain Name System) translates human-readable domain names such as www.example.com into numerical IP addresses that computers use to locate each other on the internet.",
+  "p003": "The Transformer architecture, introduced in the 2017 paper 'Attention Is All You Need', uses a self-attention mechanism to weigh the importance of different words in a sequence. It revolutionised natural language processing and underpins modern large language models.",
+  "p004": "Asia is the largest continent by both land area and population.",
+  "p005": "The greenhouse effect is a natural process where gases such as CO2, methane, and water vapour in Earth's atmosphere trap heat from the sun, keeping the planet warm enough to support life. Without it, Earth's average temperature would be around -18°C.",
+  "p006": "Apollo 11 landed on the Moon on 20 July 1969. Neil Armstrong was the first human to walk on the Moon.",
+  "p007": "GDP (Gross Domestic Product) measures the total monetary value of all goods and services produced within a country's borders in a given period, typically one year. It is a primary indicator of economic health.",
+  "p008": "The Pythagorean theorem states that in a right triangle, the square of the length of the hypotenuse equals the sum of the squares of the other two sides: a² + b² = c²."
+}

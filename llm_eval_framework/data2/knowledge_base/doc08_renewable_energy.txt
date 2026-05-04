@@ -1,0 +1,21 @@
+Renewable Energy Sources and Technology
+
+Renewable energy is energy derived from natural processes that are replenished on a human timescale, including sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels (coal, oil, natural gas), renewable sources do not produce carbon dioxide when generating electricity, making them essential for mitigating climate change.
+
+Solar energy is captured from sunlight. Photovoltaic (PV) cells convert sunlight directly into electricity using the photoelectric effect. Silicon-based PV cells are the most common; when photons strike the semiconductor, electrons are freed and flow as electric current. The efficiency of commercial silicon solar panels typically ranges from 15% to 22%. Concentrated solar power (CSP) systems use mirrors or lenses to focus sunlight and generate heat, which drives a turbine to produce electricity.
+
+Wind energy is captured by wind turbines. As wind moves the turbine blades, a rotor connected to a generator converts kinetic energy into electricity. Wind turbines are rated by their capacity in megawatts (MW). Offshore wind farms generally experience stronger, more consistent winds than onshore farms. The global installed wind capacity exceeded 900 gigawatts (GW) by 2022.
+
+Hydroelectric power generates electricity by harnessing the energy of flowing or falling water. A dam creates a reservoir; water released through the dam drives turbines. Hydropower is the world's largest source of renewable electricity. Run-of-river systems do not require large reservoirs and have less environmental impact. Pumped-storage hydropower acts as a large-scale battery: excess electricity pumps water uphill to a reservoir, which can be released to generate power during peak demand.
+
+Geothermal energy taps heat from within the Earth. Steam or hot water from geothermal reservoirs is used to drive turbines. Countries near tectonic plate boundaries, such as Iceland and New Zealand, derive significant portions of their electricity from geothermal sources.
+
+Bioenergy comes from biological materials (biomass) such as wood, agricultural residues, and purpose-grown energy crops. Biomass can be burned directly or converted into liquid biofuels (ethanol, biodiesel) or biogas (methane). Biogas is produced by the anaerobic digestion of organic waste.
+
+Energy storage is critical for managing the intermittency of solar and wind power. Lithium-ion batteries, widely used in electric vehicles and grid-scale storage, store electricity electrochemically. As of the early 2020s, battery costs have declined dramatically—over 90% since 2010—making large-scale storage increasingly economical. Other storage technologies include pumped hydro, compressed air energy storage, and flow batteries.
+
+The capacity factor of a power plant is the ratio of its actual output over a period to its theoretical maximum output if it operated at full capacity the whole time. Solar PV has a typical capacity factor of 15–25%; onshore wind, 25–40%; offshore wind, 35–50%; nuclear, 80–95%.
+
+Grid integration of renewables requires smart grid technologies, demand-side management, and interconnections between regions to balance supply and demand. Power purchase agreements (PPAs) allow buyers to contract renewable electricity at fixed prices, giving developers revenue certainty to finance projects.
+
+The levelized cost of energy (LCOE) measures the lifetime costs of a power plant divided by its total energy output, in dollars per megawatt-hour. By 2023, utility-scale solar PV and onshore wind had become the cheapest sources of new electricity generation in most parts of the world, with LCOEs below $40–50 per MWh in favorable locations.

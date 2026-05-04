@@ -1,7 +1,8 @@
 # modules/consistency.py — Semantic consistency via multiple re-samples
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from config import FAST_MODE, CONSISTENCY_MODEL, NUM_CONSISTENCY_SAMPLES, EMBEDDING_MODEL
+import config
+from config import CONSISTENCY_MODEL, NUM_CONSISTENCY_SAMPLES, EMBEDDING_MODEL
 
 _embedder = None
 
@@ -16,17 +17,13 @@ def _get_embedder():
 
 def consistency_score(prompt: str, context_docs: list) -> float:
     """
-    Generates k responses with temperature>0, embeds them, and computes
-    average pairwise cosine similarity.
+    Generates NUM_CONSISTENCY_SAMPLES responses with temperature=0.7, embeds them,
+    and returns the average pairwise cosine similarity.
 
-    Range: [0, 1] — higher means the model gives consistent answers
-    regardless of sampling randomness.
-
-    When FAST_MODE=True returns 1.0 (skips extra LLM calls).
+    Range: [0, 1] — higher means the model gives consistent answers regardless of
+    sampling randomness. Always computed (no FAST_MODE skip) because 1.0 is
+    uninformative and gemma3:1b adds only ~15s per prompt.
     """
-    if FAST_MODE:
-        return 1.0
-
     from modules.generator import generate_answer
     samples = []
     for _ in range(NUM_CONSISTENCY_SAMPLES):

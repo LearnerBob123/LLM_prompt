@@ -1,0 +1,122 @@
+[
+  {
+    "id": "p001",
+    "prompt": "What is the structure of DNA, and who determined it in 1953?",
+    "type": "factual",
+    "domain": "genetics"
+  },
+  {
+    "id": "p002",
+    "prompt": "Who published the first widely recognized periodic table and when?",
+    "type": "factual",
+    "domain": "chemistry"
+  },
+  {
+    "id": "p003",
+    "prompt": "State Newton's Second Law of Motion and write its formula.",
+    "type": "factual",
+    "domain": "physics"
+  },
+  {
+    "id": "p004",
+    "prompt": "Describe Pavlov's classical conditioning experiment with dogs.",
+    "type": "factual",
+    "domain": "psychology"
+  },
+  {
+    "id": "p005",
+    "prompt": "How many essential amino acids are there, and what does essential mean in nutrition?",
+    "type": "factual",
+    "domain": "nutrition"
+  },
+  {
+    "id": "p006",
+    "prompt": "What is the approximate age and diameter of the observable universe?",
+    "type": "factual",
+    "domain": "astronomy"
+  },
+  {
+    "id": "p007",
+    "prompt": "What year was Python programming language first released and who designed it?",
+    "type": "factual",
+    "domain": "programming"
+  },
+  {
+    "id": "p008",
+    "prompt": "When did Alexander Fleming discover penicillin and how?",
+    "type": "factual",
+    "domain": "medicine"
+  },
+  {
+    "id": "p009",
+    "prompt": "Explain how the law of conservation of energy relates to kinetic and potential energy in mechanics.",
+    "type": "reasoning",
+    "domain": "physics"
+  },
+  {
+    "id": "p010",
+    "prompt": "How does Maslow's hierarchy of needs explain why a starving person is unlikely to pursue self-actualization?",
+    "type": "reasoning",
+    "domain": "psychology"
+  },
+  {
+    "id": "p011",
+    "prompt": "Why is intermittency a challenge for solar and wind power, and how does battery storage help address it?",
+    "type": "reasoning",
+    "domain": "renewable_energy"
+  },
+  {
+    "id": "p012",
+    "prompt": "How did Kant's Categorical Imperative differ from Utilitarianism's approach to ethics?",
+    "type": "reasoning",
+    "domain": "philosophy"
+  },
+  {
+    "id": "p013",
+    "prompt": "Why did the discovery of antibiotics and vaccines each represent a major turning point in medicine?",
+    "type": "reasoning",
+    "domain": "medicine"
+  },
+  {
+    "id": "p014",
+    "prompt": "Explain why carbon is so central to organic chemistry compared to other elements.",
+    "type": "reasoning",
+    "domain": "chemistry"
+  },
+  {
+    "id": "p015",
+    "prompt": "Is DNA or RNA more important to life? Justify your answer.",
+    "type": "ambiguous",
+    "domain": "genetics"
+  },
+  {
+    "id": "p016",
+    "prompt": "Did Aristotle or Plato have a bigger impact on philosophy? Give a reasoned argument.",
+    "type": "ambiguous",
+    "domain": "philosophy"
+  },
+  {
+    "id": "p017",
+    "prompt": "Will renewable energy completely replace fossil fuels in the near future?",
+    "type": "ambiguous",
+    "domain": "renewable_energy"
+  },
+  {
+    "id": "p018",
+    "prompt": "Is psychology a true science? Discuss different perspectives.",
+    "type": "ambiguous",
+    "domain": "psychology"
+  },
+  {
+    "id": "p019",
+    "prompt": "Which is more impressive as a scientific achievement: the discovery of penicillin or the sequencing of the human genome?",
+    "type": "ambiguous",
+    "domain": "medicine"
+  },
+  {
+    "id": "p020",
+    "prompt": "Should the definition of a planet include Pluto? Analyze the arguments for and against.",
+    "type": "ambiguous",
+    "domain": "astronomy"
+  }
+]

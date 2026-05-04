@@ -1,0 +1,19 @@
+Genetics and DNA
+
+Deoxyribonucleic acid, or DNA, is the molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known living organisms and many viruses. DNA is a double-helix structure composed of two complementary strands wound around each other. Each strand is made of nucleotides, which consist of a sugar (deoxyribose), a phosphate group, and one of four nitrogenous bases: adenine (A), thymine (T), guanine (G), and cytosine (C). Adenine pairs with thymine, and guanine pairs with cytosine, following the base-pairing rules discovered by Erwin Chargaff.
+
+The structure of DNA was determined in 1953 by James Watson and Francis Crick, based on X-ray crystallography data produced by Rosalind Franklin and Raymond Gosling. The human genome contains approximately 3.2 billion base pairs organized into 23 pairs of chromosomes. Each chromosome contains hundreds to thousands of genes.
+
+A gene is a segment of DNA that encodes instructions for producing a protein or functional RNA molecule. The central dogma of molecular biology states that genetic information flows from DNA to RNA (transcription) and then from RNA to protein (translation). This process involves messenger RNA (mRNA), transfer RNA (tRNA), and ribosomes.
+
+Gregor Mendel, an Austrian monk working in the 1860s, is considered the father of genetics. His experiments with pea plants established the laws of inheritance: the Law of Segregation (each organism carries two alleles for each trait, which separate during gamete formation) and the Law of Independent Assortment (genes for different traits segregate independently of one another). Mendel's work was rediscovered in 1900 by Hugo de Vries, Carl Correns, and Erich von Tschermak.
+
+Alleles are different versions of the same gene. A dominant allele masks the effect of a recessive allele. An organism's genotype is its genetic makeup, while the phenotype is the observable expression of those genes. Homozygous individuals carry two identical alleles; heterozygous individuals carry two different alleles.
+
+Mutations are changes in the DNA sequence. Point mutations change a single nucleotide, while insertions and deletions add or remove nucleotides. Chromosomal mutations involve larger-scale changes, such as duplications, deletions, inversions, or translocations of chromosome segments. Some mutations are neutral, others are harmful, and a small fraction can be beneficial.
+
+Genetic inheritance patterns include autosomal dominant, autosomal recessive, X-linked, and mitochondrial inheritance. Huntington's disease is an example of an autosomal dominant disorder; cystic fibrosis is autosomal recessive; color blindness is X-linked recessive.
+
+The Human Genome Project, completed in 2003, sequenced the entire human genome for the first time. Modern techniques like CRISPR-Cas9 allow scientists to edit specific DNA sequences with high precision, opening the door to potential treatments for genetic diseases.
+
+DNA replication is semi-conservative: each strand of the double helix serves as a template for a new strand. The enzyme DNA polymerase adds new nucleotides to the growing strand in the 5' to 3' direction. Other enzymes involved include helicase (unwinds the double helix), primase (creates RNA primers), and ligase (joins Okazaki fragments on the lagging strand).

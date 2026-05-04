@@ -1,0 +1,21 @@
+Nutrition and Human Metabolism
+
+Nutrition is the science of how food and drink affect the body. The nutrients obtained from food are divided into macronutrients and micronutrients.
+
+Macronutrients provide energy and include carbohydrates, proteins, and fats. Carbohydrates are the body's primary energy source. They are broken down into glucose, which cells use for energy via glycolysis and the citric acid cycle. Simple carbohydrates (sugars) are digested quickly; complex carbohydrates (starches and fiber) are digested more slowly and provide sustained energy. Fiber, a form of indigestible carbohydrate, promotes digestive health and helps regulate blood sugar.
+
+Proteins are composed of amino acids linked by peptide bonds. There are 20 standard amino acids, of which 9 are essential (must be obtained from diet): histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine. Proteins serve structural roles (collagen, keratin), enzymatic roles, immune functions (antibodies), and transport roles (hemoglobin). The recommended dietary allowance (RDA) for protein is approximately 0.8 grams per kilogram of body weight per day for adults.
+
+Fats (lipids) are a concentrated energy source, providing 9 kilocalories per gram, compared to 4 kilocalories per gram for carbohydrates and proteins. Fats are categorized as saturated (solid at room temperature, found in animal products), unsaturated (liquid at room temperature, found in plant oils and fish), and trans fats (artificially created by hydrogenation; associated with increased cardiovascular risk). Essential fatty acids, including omega-3 and omega-6 fatty acids, cannot be synthesized by the body and must be consumed through diet.
+
+Micronutrients include vitamins and minerals required in small amounts. Fat-soluble vitamins (A, D, E, K) are stored in the body's fatty tissue and liver. Water-soluble vitamins (B-complex and C) are not stored in large amounts and must be consumed regularly. Vitamin C (ascorbic acid) is essential for collagen synthesis and immune function; deficiency causes scurvy. Vitamin D is synthesized in the skin upon sun exposure and is necessary for calcium absorption; deficiency leads to rickets in children and osteomalacia in adults.
+
+Key minerals include calcium (bone and teeth formation, nerve transmission), iron (hemoglobin production; deficiency causes anemia), potassium (fluid balance, nerve signals), and sodium (fluid regulation; excess is linked to hypertension).
+
+Metabolism refers to all chemical reactions in the body that maintain life. The basal metabolic rate (BMR) is the amount of energy expended at rest over a given time period. BMR accounts for roughly 60–75% of total daily energy expenditure for most people. Total daily energy expenditure (TDEE) includes BMR plus the thermic effect of food and physical activity energy expenditure.
+
+The glycemic index (GI) is a ranking of carbohydrate foods based on how quickly they raise blood glucose levels. Foods with a high GI (white bread, sugary drinks) cause rapid blood sugar spikes; low-GI foods (legumes, whole grains) cause slower, more gradual rises.
+
+Dietary guidelines around the world generally recommend a diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats while limiting added sugars, saturated fats, sodium, and processed foods.
+
+Malnutrition encompasses both undernutrition (insufficient intake of calories or nutrients) and overnutrition (excessive caloric intake, leading to obesity). Obesity is associated with increased risk of type 2 diabetes, cardiovascular disease, and certain cancers. The body mass index (BMI), calculated as weight in kilograms divided by height in meters squared, is a common (though imperfect) screening tool for weight categories.

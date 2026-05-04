@@ -1,0 +1,21 @@
+Physics: Mechanics, Energy, and Relativity
+
+Physics is the natural science that studies matter, energy, and the fundamental forces of nature. Classical mechanics, developed largely by Isaac Newton in the 17th century, describes the motion of macroscopic objects.
+
+Newton's Three Laws of Motion are the foundation of classical mechanics. The First Law (law of inertia) states that an object at rest remains at rest and an object in motion continues in motion with the same speed and direction unless acted upon by an external force. The Second Law states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass: F = ma (force equals mass times acceleration). The Third Law states that for every action there is an equal and opposite reaction.
+
+Isaac Newton was born on January 4, 1643 (Gregorian calendar) in Woolsthorpe, Lincolnshire, England. He published his landmark work, Philosophiae Naturalis Principia Mathematica, in 1687. In it he also described the Law of Universal Gravitation: every two masses attract each other with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. The gravitational constant G is approximately 6.674 × 10^-11 N·m²/kg².
+
+Energy is the capacity to do work. The two primary forms in mechanics are kinetic energy (energy of motion, KE = ½mv²) and potential energy (stored energy, e.g., gravitational potential energy PE = mgh). The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed from one form to another.
+
+Work is done when a force moves an object through a distance: W = Fd·cosθ. Power is the rate of doing work: P = W/t, measured in watts (joules per second).
+
+Thermodynamics governs heat and energy transfer. The First Law of Thermodynamics is a restatement of energy conservation applied to thermal systems. The Second Law states that entropy (disorder) in an isolated system always increases over time; heat naturally flows from hot to cold. The Third Law states that absolute zero (−273.15 °C or 0 K) cannot be reached by any finite process.
+
+Albert Einstein published the Special Theory of Relativity in 1905, which introduced two postulates: the laws of physics are the same in all inertial frames, and the speed of light in a vacuum (approximately 3 × 10^8 m/s) is the same for all observers regardless of their motion. Consequences include time dilation (moving clocks run slower), length contraction, and the equivalence of mass and energy expressed by E = mc².
+
+Einstein's General Theory of Relativity, published in 1915, extended these ideas to include gravity. It describes gravity not as a force but as a curvature of spacetime caused by mass and energy. Predictions of general relativity include the bending of light near massive objects, gravitational time dilation, gravitational waves, and black holes.
+
+Quantum mechanics describes physics at the atomic and subatomic scale. Max Planck introduced the idea of energy quanta in 1900; Einstein applied it to light (photons) in 1905. The Heisenberg Uncertainty Principle states that the position and momentum of a particle cannot both be known simultaneously with arbitrary precision. The wave-particle duality means particles like electrons exhibit both wave-like and particle-like behaviors.
+
+Waves transfer energy without transferring matter. Waves are characterized by wavelength (λ), frequency (f), amplitude, and speed. The relationship between these is v = fλ. Sound travels as a longitudinal wave; light travels as a transverse electromagnetic wave. The electromagnetic spectrum, from longest to shortest wavelength, includes: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.

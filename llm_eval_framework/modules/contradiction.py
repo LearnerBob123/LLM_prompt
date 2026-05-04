@@ -1,21 +1,26 @@
-# modules/contradiction.py — NLI-based contradiction detection via CrossEncoder
-# Shares the NLI singleton loaded in faithfulness.py
-from modules.faithfulness import _get_nli
+# modules/contradiction.py — NLI-based contradiction detection
+#
+# Shares the NLI pipeline singleton from faithfulness.py so the model is only
+# loaded into memory once. Also re-uses _extract_relevant_sentences so contradiction
+# scoring is focused on the most topically relevant sentences (same reason as faithfulness).
+from modules.faithfulness import faithfulness_and_contradiction
 
 
 def contradiction_score(claim: str, context_docs: list) -> float:
     """
-    Returns P(claim contradicts context).
+    Returns the contradiction score for the most-supported sentence.
 
-    Label order for cross-encoder/nli-deberta-v3-base:
-        index 0 → contradiction
-        index 1 → entailment
-        index 2 → neutral
+    Internally calls faithfulness_and_contradiction() and returns the contradiction
+    component. Contradiction is anchored to the sentence with the highest entailment
+    score, preventing false-positive contradiction from off-topic candidate sentences
+    that happen to be topically similar but semantically unrelated to the specific claim.
 
-    Range: [0, 1] — higher means the claim actively contradicts the context.
+    Interpretation guide:
+      - Low faithfulness + LOW  contradiction → context is silent on this claim
+      - Low faithfulness + HIGH contradiction → claim conflicts with what the context says
+      - High faithfulness + LOW contradiction → claim well-supported (✅ Grounded Correct)
+
+    Range: [0, 1]
     """
-    nli = _get_nli()
-    context = " ".join(context_docs)[:1500]
-    scores = nli.predict([(context, claim)], apply_softmax=True)
-    contradiction_prob = float(scores[0][0])
-    return round(contradiction_prob, 4)
+    _, contra = faithfulness_and_contradiction(claim, context_docs)
+    return contra

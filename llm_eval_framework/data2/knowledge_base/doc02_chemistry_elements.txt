@@ -1,0 +1,21 @@
+Chemistry and the Periodic Table
+
+Chemistry is the branch of science that studies the properties, composition, and transformation of matter. Matter is composed of atoms, the smallest units that retain the chemical properties of an element. An atom consists of a nucleus containing protons and neutrons, surrounded by electrons in shells or orbitals.
+
+The number of protons in an atom's nucleus defines its atomic number and determines the element. For example, hydrogen has atomic number 1 (one proton), carbon has atomic number 6, and oxygen has atomic number 8. The atomic mass of an element is approximately equal to the sum of its protons and neutrons.
+
+Dmitri Mendeleev, a Russian chemist, published the first widely recognized periodic table in 1869. He arranged elements by increasing atomic mass and noticed repeating patterns in their chemical properties. Mendeleev left gaps for undiscovered elements and correctly predicted the properties of several of them, including gallium and germanium. The modern periodic table organizes elements by atomic number and groups them into periods (horizontal rows) and groups (vertical columns).
+
+Elements in the same group share similar chemical properties because they have the same number of valence electrons (electrons in the outermost shell). Group 1 elements (alkali metals) are highly reactive; Group 18 elements (noble gases) are largely inert. Metals, nonmetals, and metalloids are three broad classifications on the periodic table.
+
+Chemical bonds hold atoms together in compounds. Ionic bonds form when electrons are transferred from one atom to another, creating oppositely charged ions that attract each other (e.g., sodium chloride, NaCl). Covalent bonds form when atoms share electrons (e.g., water, H2O; carbon dioxide, CO2). Metallic bonds involve a lattice of positive metal ions surrounded by a sea of delocalized electrons, which explains metals' conductivity and malleability.
+
+A chemical reaction involves the rearrangement of atoms to form new substances. Reactants are the starting materials; products are the substances formed. The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction. Chemical equations are balanced to reflect this law.
+
+The mole is the standard unit for measuring amounts of substances in chemistry. One mole contains approximately 6.022 × 10^23 entities (atoms, molecules, or ions), known as Avogadro's number. The molar mass of an element (in grams per mole) equals its atomic mass in atomic mass units.
+
+Acids donate protons (H+) in solution; bases accept protons. The pH scale measures acidity and basicity from 0 (most acidic) to 14 (most basic), with 7 being neutral. Water has a pH of 7. The Brønsted-Lowry theory defines acids and bases in terms of proton transfer; the Lewis theory is broader and includes electron pair donors and acceptors.
+
+Organic chemistry focuses on carbon-containing compounds. Carbon's ability to form four covalent bonds allows it to create chains, rings, and complex molecules. Hydrocarbons are compounds containing only carbon and hydrogen. Functional groups (hydroxyl, carboxyl, amino, etc.) give organic molecules their characteristic properties.
+
+Thermochemistry studies energy changes in chemical reactions. Exothermic reactions release heat (negative enthalpy change, ΔH < 0); endothermic reactions absorb heat (ΔH > 0). Hess's Law states that the total enthalpy change for a reaction is independent of the pathway taken.

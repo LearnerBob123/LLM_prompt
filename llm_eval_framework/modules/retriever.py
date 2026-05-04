@@ -3,7 +3,8 @@ import os
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from config import KNOWLEDGE_BASE_DIR, EMBEDDING_MODEL, TOP_K_DOCS
+import config
+from config import EMBEDDING_MODEL, TOP_K_DOCS
 
 
 class Retriever:
@@ -14,10 +15,10 @@ class Retriever:
         self._build_index()
 
     def _build_index(self):
-        kb_path = KNOWLEDGE_BASE_DIR
+        kb_path = config.KNOWLEDGE_BASE_DIR
         # Support running from either the project root or the framework subfolder
         if not os.path.exists(kb_path):
-            kb_path = os.path.join(os.path.dirname(__file__), "..", KNOWLEDGE_BASE_DIR)
+            kb_path = os.path.join(os.path.dirname(__file__), "..", config.KNOWLEDGE_BASE_DIR)
 
         for fname in sorted(os.listdir(kb_path)):
             if fname.endswith(".txt"):
@@ -25,7 +26,7 @@ class Retriever:
                     self.documents.append(f.read().strip())
 
         if not self.documents:
-            raise RuntimeError(f"No .txt files found in {KNOWLEDGE_BASE_DIR}")
+            raise RuntimeError(f"No .txt files found in {config.KNOWLEDGE_BASE_DIR}")
 
         embeddings = self.model.encode(self.documents, convert_to_numpy=True)
         dim = embeddings.shape[1]

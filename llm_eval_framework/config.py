@@ -8,11 +8,11 @@ load_dotenv()
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 
 # Primary generator (main RAG answers)
-GENERATOR_MODEL = "mistral"
+GENERATOR_MODEL = "llama3.2"
 # Claim extractor — best JSON mode adherence
-CLAIM_EXTRACTOR_MODEL = "qwen2.5"
+CLAIM_EXTRACTOR_MODEL = "gemma3:4b"
 # Lightweight model for consistency re-sampling
-CONSISTENCY_MODEL = "gemma3:4b"
+CONSISTENCY_MODEL = "gemma3:1b"
 
 # ── Local Model Settings ─────────────────────────────────────────────────────
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
@@ -24,7 +24,7 @@ NUM_CONSISTENCY_SAMPLES = 3
 
 # FAST_MODE = True  → skip parametric, consistency, robustness (3× fewer LLM calls)
 # Set to False for full academic-quality results (~10-15 min for 20 prompts)
-FAST_MODE = False
+FAST_MODE = True
 
 # ── Thresholds ───────────────────────────────────────────────────────────────
 FAITHFULNESS_THRESHOLD = 0.5

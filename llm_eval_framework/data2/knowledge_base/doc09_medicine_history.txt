@@ -1,0 +1,21 @@
+History of Medicine
+
+Medicine has evolved over thousands of years from ancient rituals and herbal remedies to evidence-based science and biotechnology. Key milestones have transformed humanity's ability to prevent and treat disease.
+
+The ancient Egyptians and Greeks made early contributions to medicine. Hippocrates of Cos (c. 460–370 BCE) is often called the father of medicine. He emphasized clinical observation and natural explanations for disease, moving away from supernatural causes. The Hippocratic Oath, attributed to his tradition, established ethical standards for physicians.
+
+Galen of Pergamon (129–216 CE) dominated Western medical thought for over a millennium. His anatomical works, though containing errors (he dissected animals, not humans), were authoritative through the Middle Ages. Andreas Vesalius corrected many of Galen's errors in his 1543 work De Humani Corporis Fabrica, based on direct human dissection.
+
+William Harvey described the circulatory system in 1628, demonstrating that blood circulates continuously through the body, pumped by the heart—a major advance over previous theories.
+
+The germ theory of disease, developed in the 19th century, established that many diseases are caused by microorganisms. Louis Pasteur (1822–1895) demonstrated that microbes cause fermentation and putrefaction, and developed the process of pasteurization (heating liquids to kill harmful bacteria). He also developed vaccines against cholera and anthrax in animals, and a treatment for rabies in humans (1885). Robert Koch identified the bacteria responsible for tuberculosis (1882) and cholera (1883) and formulated Koch's postulates—criteria for establishing a causal relationship between a microbe and a disease.
+
+The discovery of antibiotics revolutionized medicine. Alexander Fleming discovered penicillin in 1928 when he noticed that a Penicillium mold was killing bacteria on one of his petri dishes. Howard Florey and Ernst Chain developed it into a usable antibiotic in the early 1940s. The widespread use of antibiotics saved millions of lives and transformed bacterial infections from potentially fatal to routinely treatable. However, antibiotic resistance is now a growing global threat.
+
+Vaccination has been one of the most effective public health interventions in history. Edward Jenner developed the first vaccine in 1796, using material from cowpox sores to protect against smallpox. Smallpox was declared eradicated in 1980 by the World Health Organization—the only human disease to have been eradicated through vaccination. The 20th century saw vaccines developed for polio, measles, hepatitis, and many other diseases.
+
+Surgical practice advanced dramatically in the 19th and 20th centuries. Before the mid-19th century, surgery was extremely dangerous due to pain and infection. The introduction of ether as a general anesthetic in 1846 and the development of antiseptic techniques by Joseph Lister (based on Pasteur's germ theory) dramatically improved surgical outcomes. The 20th century brought blood transfusions, organ transplants (first successful kidney transplant in 1954 by Joseph Murray), and minimally invasive (laparoscopic) surgery.
+
+Medical imaging transformed diagnosis in the 20th century. Wilhelm Röntgen discovered X-rays in 1895; within months they were used to image bones. Computed tomography (CT) scans and magnetic resonance imaging (MRI) later provided detailed three-dimensional images of internal organs without surgery.
+
+The sequencing of the human genome (completed in 2003) opened the era of genomic medicine. Targeted therapies and monoclonal antibodies now treat cancers and autoimmune diseases that were previously untreatable. mRNA vaccine technology, first used at scale in the COVID-19 vaccines of 2020–2021, represents a new frontier in immunization.

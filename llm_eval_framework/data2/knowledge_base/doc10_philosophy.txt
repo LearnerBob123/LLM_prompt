@@ -1,0 +1,21 @@
+Philosophy: Key Thinkers and Ideas
+
+Philosophy is the systematic study of fundamental questions about existence, knowledge, morality, reason, and language. It is typically divided into branches: metaphysics (the nature of reality), epistemology (the nature of knowledge), ethics (morality), logic (principles of valid reasoning), and aesthetics (the nature of beauty and art).
+
+Ancient Greek philosophy laid the groundwork for Western thought. Socrates (c. 470–399 BCE) is famous for the Socratic method—a form of dialogue and questioning aimed at testing hypotheses and uncovering inconsistencies. He wrote nothing himself; our knowledge of him comes primarily through his student Plato. Socrates was tried and executed by Athens in 399 BCE for impiety and corrupting the youth.
+
+Plato (c. 428–348 BCE) founded the Academy in Athens, one of the earliest institutions of higher learning. His Theory of Forms holds that the material world is a shadow of a higher reality of abstract, eternal "Forms" or "Ideas." The Form of the Good is the highest of all Forms. Plato's Allegory of the Cave illustrates how people mistake shadowy perceptions for reality. His work The Republic explores justice, political theory, and the ideal state.
+
+Aristotle (384–322 BCE) was Plato's student and perhaps the most influential philosopher in history. Unlike Plato, Aristotle believed that universals exist within particular things, not in a separate realm. He founded formal logic in his work the Organon. His Nicomachean Ethics argues that the highest good for humans is eudaimonia (flourishing or happiness), achieved through virtuous activity in accordance with reason. Aristotle also wrote extensively on biology, physics, politics, and rhetoric.
+
+Rationalism holds that reason is the primary source of knowledge, independent of sensory experience. René Descartes (1596–1650) is the father of modern rationalism. His famous statement "Cogito, ergo sum" ("I think, therefore I am") grounds his philosophy in the certainty of the thinking self. Descartes proposed that the world is composed of two distinct substances: mind and matter (mind-body dualism). Baruch Spinoza and Gottfried Leibniz also developed rationalist philosophies.
+
+Empiricism holds that knowledge comes primarily from sensory experience. John Locke (1632–1704) argued that the mind at birth is a tabula rasa (blank slate) and that all knowledge is derived from experience. George Berkeley argued that material objects exist only as perceptions in the mind (idealism). David Hume pushed empiricism to skeptical conclusions, arguing that causation cannot be directly observed—only constant conjunction.
+
+Immanuel Kant (1724–1804) sought to reconcile rationalism and empiricism in his Critique of Pure Reason (1781). He argued that experience is structured by innate mental categories (such as causality and space/time). Kant's ethics are deontological: the moral worth of an action is determined by whether it follows from duty and a universalizable maxim, summarized in the Categorical Imperative: "Act only according to that maxim whereby you can at the same time will that it should become a universal law."
+
+Utilitarianism, developed by Jeremy Bentham (1748–1832) and refined by John Stuart Mill (1806–1873), holds that the morally right action is the one that produces the greatest happiness for the greatest number of people. Mill distinguished between higher pleasures (intellectual, moral) and lower pleasures (physical).
+
+Existentialism, prominent in the 20th century, emphasizes individual freedom, choice, and responsibility. Søren Kierkegaard is considered an early existentialist. Jean-Paul Sartre (1905–1980) famously argued that "existence precedes essence"—there is no fixed human nature; individuals create their own meaning.
+
+Analytic philosophy, dominant in the English-speaking world in the 20th century, focuses on logical analysis of language and concepts. Ludwig Wittgenstein, Bertrand Russell, and G. E. Moore were key figures. Continental philosophy, prevalent in Europe, includes phenomenology (Husserl, Heidegger), critical theory (Frankfurt School), and poststructuralism (Derrida, Foucault).

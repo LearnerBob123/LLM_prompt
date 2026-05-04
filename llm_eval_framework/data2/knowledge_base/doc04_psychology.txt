@@ -1,0 +1,21 @@
+Psychology: Learning, Motivation, and Cognition
+
+Psychology is the scientific study of the mind and behavior. It encompasses perception, cognition, emotion, personality, behavior, and interpersonal relationships.
+
+Classical conditioning, discovered by Ivan Pavlov (1849–1936) during his research on digestion in dogs, is a learning process in which a neutral stimulus becomes associated with a meaningful stimulus and acquires the capacity to elicit a similar response. In Pavlov's famous experiment, a bell (neutral stimulus) was paired repeatedly with food (unconditioned stimulus), until the bell alone could elicit salivation (conditioned response). The neutral stimulus becomes the conditioned stimulus after learning.
+
+B. F. Skinner developed operant conditioning, a learning process in which behavior is shaped by its consequences. Reinforcement (positive or negative) increases the likelihood of a behavior; punishment decreases it. A fixed-ratio schedule delivers reinforcement after a fixed number of responses; a variable-ratio schedule provides reinforcement after an unpredictable number of responses and produces the most persistent behavior.
+
+Abraham Maslow (1908–1970) proposed a hierarchy of human needs in 1943. The hierarchy, often depicted as a pyramid, has five levels: physiological needs (food, water, shelter) at the base, followed by safety needs, love and belonging, esteem, and self-actualization at the peak. Maslow argued that lower-level needs must be met before a person can focus on higher-level needs.
+
+Cognitive psychology studies mental processes such as perception, memory, problem-solving, and language. Jean Piaget described four stages of cognitive development in children: sensorimotor (birth–2 years), preoperational (2–7 years), concrete operational (7–11 years), and formal operational (12 years and beyond). Lev Vygotsky emphasized the role of social interaction and culture in cognitive development and introduced the concept of the Zone of Proximal Development (ZPD).
+
+Cognitive biases are systematic errors in thinking that affect decisions and judgments. The confirmation bias is the tendency to search for, interpret, and recall information in a way that confirms one's pre-existing beliefs. The availability heuristic is a mental shortcut that relies on immediate examples that come to mind when evaluating a topic. The anchoring effect refers to the tendency to rely heavily on the first piece of information encountered when making decisions.
+
+Memory has three major processes: encoding (converting information into a usable form), storage (retaining information over time), and retrieval (accessing stored information). The Atkinson-Shiffrin model divides memory into sensory memory, short-term memory (working memory), and long-term memory. Long-term memory is further divided into explicit (declarative) memory—including episodic and semantic memory—and implicit (non-declarative) memory.
+
+Social psychology examines how people's thoughts, feelings, and behaviors are influenced by others. Stanley Milgram's obedience experiments (1961) showed that many ordinary people would follow authority figures' instructions to administer harmful levels of electric shocks to strangers. Philip Zimbardo's Stanford Prison Experiment (1971) studied how situational roles influence behavior.
+
+Positive psychology, founded largely by Martin Seligman in the late 1990s, focuses on strengths, virtues, and factors that help individuals and communities thrive, rather than on mental illness and pathology.
+
+Psychological disorders are diagnosed using criteria in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association. Common categories include anxiety disorders, mood disorders (depression, bipolar disorder), personality disorders, and psychotic disorders.

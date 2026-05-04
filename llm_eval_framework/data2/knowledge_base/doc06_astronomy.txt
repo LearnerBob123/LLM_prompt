@@ -1,0 +1,21 @@
+Astronomy: Stars, Galaxies, and the Universe
+
+Astronomy is the study of celestial objects, space, and the physical universe as a whole. It is one of the oldest sciences, with roots in ancient civilizations that tracked the movements of the Sun, Moon, and stars.
+
+The observable universe is approximately 93 billion light-years in diameter. A light-year is the distance light travels in one year, approximately 9.461 × 10^15 meters (about 9.46 trillion kilometers). The universe is estimated to be about 13.8 billion years old, based on the Big Bang theory.
+
+The Big Bang theory describes the origin of the universe from an extremely hot, dense state approximately 13.8 billion years ago. After the Big Bang, matter and energy expanded and cooled. Hydrogen and helium formed within the first few minutes. Gravity eventually caused matter to clump together, forming the first stars and galaxies hundreds of millions of years later. The cosmic microwave background (CMB) radiation, discovered in 1965 by Arno Penzias and Robert Wilson, is the residual thermal radiation from the early universe and provides strong support for the Big Bang theory.
+
+Stars are massive, luminous balls of plasma held together by gravity. Nuclear fusion in the core converts hydrogen into helium, releasing enormous energy. The Sun is a medium-sized star classified as a G-type main-sequence star (yellow dwarf) with a surface temperature of about 5,500°C. The Sun is approximately 4.6 billion years old and lies about 150 million kilometers from Earth (one astronomical unit, or AU).
+
+Stars are classified by the Harvard spectral system (O, B, A, F, G, K, M) from hottest to coolest. Massive stars (O and B types) burn quickly and end their lives as supernovae, potentially forming neutron stars or black holes. Lower-mass stars like the Sun eventually expand into red giants, shed their outer layers to form planetary nebulae, and leave behind a white dwarf.
+
+A black hole is a region of spacetime where gravity is so strong that nothing—not even light—can escape. Black holes form when massive stars collapse under their own gravity. The boundary around a black hole beyond which nothing can escape is called the event horizon. The concept was predicted by Einstein's general relativity, and the first image of a black hole's shadow (galaxy M87) was captured in 2019 by the Event Horizon Telescope.
+
+Our solar system contains eight recognized planets orbiting the Sun, in order of distance: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. The asteroid belt lies between Mars and Jupiter. Beyond Neptune is the Kuiper Belt, home to Pluto (classified as a dwarf planet since 2006) and other trans-Neptunian objects.
+
+Galaxies are vast systems containing billions of stars, gas, dust, and dark matter. The Milky Way is a barred spiral galaxy containing an estimated 200–400 billion stars. Our solar system lies in the Orion Arm, about 26,000 light-years from the galactic center. The nearest large galaxy to the Milky Way is the Andromeda Galaxy (M31), approximately 2.537 million light-years away. The two galaxies are expected to collide in approximately 4.5 billion years.
+
+Dark matter is an unseen form of matter that does not interact with electromagnetic radiation but exerts gravitational effects on visible matter. It is estimated to make up about 27% of the universe's total mass-energy content. Dark energy, a mysterious form of energy driving the accelerating expansion of the universe, accounts for approximately 68%. Ordinary (baryonic) matter makes up only about 5%.
+
+Exoplanets are planets orbiting stars other than the Sun. As of the mid-2020s, over 5,000 confirmed exoplanets have been discovered. The Kepler Space Telescope and TESS mission have been instrumental in detecting thousands of exoplanet candidates using the transit method (detecting the slight dimming of starlight as a planet passes in front of its star).

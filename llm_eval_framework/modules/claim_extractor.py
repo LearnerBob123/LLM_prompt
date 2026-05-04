@@ -29,14 +29,27 @@ def extract_claims(response: str) -> list:
     Returns [] on any failure.
     """
     prompt = CLAIM_EXTRACTION_PROMPT.format(response=response)
-    client = ollama.Client(host=OLLAMA_HOST)
 
-    result = client.chat(
-        model=CLAIM_EXTRACTOR_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        options={"temperature": 0.0},
-        format="json",
-    )
+    # Retry up to 3 times — stale connections can occur after long NLI GPU runs
+    last_err = None
+    for attempt in range(3):
+        try:
+            client = ollama.Client(host=OLLAMA_HOST)
+            result = client.chat(
+                model=CLAIM_EXTRACTOR_MODEL,
+                messages=[{"role": "user", "content": prompt}],
+                options={"temperature": 0.0},
+                format="json",
+            )
+            break
+        except Exception as e:
+            last_err = e
+            if attempt < 2:
+                import time; time.sleep(2 ** attempt)
+    else:
+        # All retries exhausted — return empty list (pipeline will use fallback)
+        print(f"[claim_extractor] Ollama error after 3 attempts: {last_err}")
+        return []
 
     raw = result.message.content.strip()
     # Strip markdown code fences if the model added them anyway

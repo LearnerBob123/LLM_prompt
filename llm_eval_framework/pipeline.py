@@ -23,15 +23,14 @@ import config  # noqa: E402 (must come after sys.path change)
 from modules.retriever import Retriever
 from modules.generator import generate_answer
 from modules.claim_extractor import extract_claims
-from modules.faithfulness import faithfulness_score
-from modules.contradiction import contradiction_score
-from modules.confidence import confidence_score
+from modules.faithfulness import faithfulness_and_contradiction
+from modules.confidence import confidence_score, claim_confidence_score
 from modules.parametric import parametric_score
 from modules.consistency import consistency_score
 from modules.scorer import franq_score, classify_claim, prompt_score, model_score
 from modules.prompt_metrics import (
     grounding_score, hallucination_rate, confidence_calibration,
-    relevance_score, completeness_score, robustness_score,
+    relevance_score, completeness_score,
 )
 
 
@@ -40,15 +39,26 @@ def parse_args():
     parser.add_argument("--mini", action="store_true", help="Run only first 5 prompts")
     parser.add_argument("--fast", action="store_true", help="Force FAST_MODE=True")
     parser.add_argument("--full", action="store_true", help="Force FAST_MODE=False (slow, thorough)")
+    parser.add_argument(
+        "--data", default=None,
+        help="Data folder prefix (default: 'data'). Use 'data2' to run the second dataset."
+    )
     return parser.parse_args()
 
 
-def run(mini: bool = False, force_fast: bool = False, force_full: bool = False):
+def run(mini: bool = False, force_fast: bool = False, force_full: bool = False, data_dir: str = None):
     # ── Apply mode overrides ─────────────────────────────────────────────────
     if force_fast:
         config.FAST_MODE = True
     if force_full:
         config.FAST_MODE = False
+
+    # ── Apply data directory override ────────────────────────────────────────
+    if data_dir and data_dir != "data":
+        config.KNOWLEDGE_BASE_DIR = f"{data_dir}/knowledge_base/"
+        config.PROMPTS_FILE = f"{data_dir}/prompts.json"
+        config.GROUND_TRUTH_FILE = f"{data_dir}/ground_truth.json"
+        config.RESULTS_FILE = f"outputs/results_{data_dir}.json"
 
     print(f"\n{'='*60}")
     print(f"  LLM Evaluation Pipeline")
@@ -56,6 +66,8 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False):
     print(f"  Extractor   : {config.CLAIM_EXTRACTOR_MODEL}")
     print(f"  FAST_MODE   : {config.FAST_MODE}")
     print(f"  Mini run    : {mini}")
+    print(f"  Data folder : {data_dir or 'data'}")
+    print(f"  Output file : {config.RESULTS_FILE}")
     print(f"{'='*60}\n")
 
     # ── Load models ──────────────────────────────────────────────────────────
@@ -95,10 +107,13 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False):
         # Step 1 — Retrieve context
         context_docs = retriever.retrieve(prompt)
 
-        # Step 2 — Generate response
+        # Step 2 — Generate response (with context) + context-free response for parametric
         gen = generate_answer(prompt, context_docs, with_context=True)
         response = gen["response"]
         token_logprobs = gen["token_logprobs"]
+
+        cf_gen = generate_answer(prompt, context_docs=[], with_context=False)
+        context_free_response = cf_gen["response"]
 
         # Step 3 — Extract claims
         claims = extract_claims(response)
@@ -106,8 +121,8 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False):
             # Fallback: treat the full response as one claim
             claims = [response[:300]]
 
-        # Step 4 — Response-level scores (shared across all claims)
-        conf = confidence_score(token_logprobs)
+        # Step 4 — Per-claim token alignment data (from generator logprobs)
+        token_data = gen.get("token_data", [])
         # Consistency is prompt-level; compute once
         consist = consistency_score(prompt, context_docs)
 
@@ -116,9 +131,14 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False):
         faith_scores, conf_scores = [], []
 
         for claim_text in claims:
-            faith = faithfulness_score(claim_text, context_docs)
-            contra = contradiction_score(claim_text, context_docs)
-            param = parametric_score(claim_text, prompt, nli)
+            faith, contra = faithfulness_and_contradiction(claim_text, context_docs)
+            # Per-claim confidence: align claim text to token sequence when possible
+            conf = (
+                claim_confidence_score(claim_text, token_data)
+                if token_data
+                else confidence_score(token_logprobs)
+            )
+            param = parametric_score(claim_text, context_free_response)
             score = franq_score(faith, conf, param, contra, consist)
             label = classify_claim(faith, param)
 
@@ -154,7 +174,6 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False):
             "consistency_score": consist,
             "relevance_score": relevance_score(prompt, response, embedder),
             "completeness_score": completeness_score(response, gt, embedder),
-            "robustness_score": robustness_score(prompt, context_docs, generate_answer, embedder),
         }
 
         all_prompt_results.append(prompt_result)
@@ -187,4 +206,4 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False):
 
 if __name__ == "__main__":
     args = parse_args()
-    run(mini=args.mini, force_fast=args.fast, force_full=args.full)
+    run(mini=args.mini, force_fast=args.fast, force_full=args.full, data_dir=args.data)

@@ -1,0 +1,21 @@
+Programming Languages and Software Development
+
+A programming language is a formal set of instructions that can be used to produce various kinds of output, including programs that control the behavior of a computer. Programming languages are classified along several dimensions: by paradigm, by level of abstraction, and by whether they are compiled or interpreted.
+
+High-level programming languages abstract away from machine hardware details, making programs easier to write and maintain. Low-level languages (such as assembly language) are closer to machine code and provide fine-grained control over hardware. Machine code is the binary language directly executed by a CPU.
+
+Compiled languages translate source code into machine code (or intermediate bytecode) before execution. C, written by Dennis Ritchie at Bell Labs between 1969 and 1972, is a compiled, procedural language that has been highly influential. C is used for operating systems, embedded systems, and performance-critical applications. C++ (created by Bjarne Stroustrup) extends C with object-oriented features.
+
+Interpreted languages execute source code line by line via an interpreter at runtime. Python, designed by Guido van Rossum and first released in 1991, is a high-level, dynamically typed, interpreted language emphasizing readability and simplicity. Python supports multiple paradigms: procedural, object-oriented, and functional. It is widely used in data science, machine learning, web development (with frameworks like Django and Flask), and scripting.
+
+Java, developed by James Gosling at Sun Microsystems and released in 1995, introduced the "write once, run anywhere" principle through bytecode compiled to run on the Java Virtual Machine (JVM). Java is strongly typed and object-oriented. JavaScript, despite the similar name, is a completely different language created by Brendan Eich in 1995 for adding interactivity to web pages; it is now used for both front-end and back-end (Node.js) development.
+
+Programming paradigms define the style and methodology of programming. Procedural programming organizes code into functions and procedures. Object-oriented programming (OOP) organizes code around objects that combine data and behavior; key principles are encapsulation, inheritance, and polymorphism. Functional programming treats computation as the evaluation of mathematical functions and avoids mutable state; languages like Haskell, Erlang, and Clojure are primarily functional.
+
+Version control systems track changes to code over time and enable collaboration. Git, created by Linus Torvalds in 2005, is the most widely used distributed version control system. Platforms like GitHub and GitLab host repositories and provide tools for code review and project management.
+
+Software development methodologies guide the process of building software. The Waterfall model is a linear, sequential approach. Agile methodologies (Scrum, Kanban) favor iterative development in short cycles called sprints, with continuous feedback and adaptation.
+
+Algorithms are step-by-step procedures for solving problems. Algorithm complexity is analyzed in terms of time (how execution time grows with input size) and space (memory usage). Big-O notation describes the worst-case growth rate; O(1) is constant time, O(log n) is logarithmic, O(n) is linear, O(n²) is quadratic, and O(2^n) is exponential.
+
+Common data structures include arrays, linked lists, stacks, queues, hash tables, trees, and graphs. A hash table maps keys to values using a hash function, enabling average O(1) lookup. A binary search tree stores values such that each node's left subtree contains smaller values and right subtree contains larger values, enabling O(log n) search in balanced trees.

@@ -66,7 +66,7 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False, 
     print(f"  Extractor   : {config.CLAIM_EXTRACTOR_MODEL}")
     print(f"  FAST_MODE   : {config.FAST_MODE}")
     print(f"  Mini run    : {mini}")
-    print(f"  Data folder : {data_dir or 'data'}")
+    print(f"  Data folder : {data_dir or config.DATA_DIR}")
     print(f"  Output file : {config.RESULTS_FILE}")
     print(f"{'='*60}\n")
 
@@ -112,8 +112,12 @@ def run(mini: bool = False, force_fast: bool = False, force_full: bool = False, 
         response = gen["response"]
         token_logprobs = gen["token_logprobs"]
 
-        cf_gen = generate_answer(prompt, context_docs=[], with_context=False)
-        context_free_response = cf_gen["response"]
+        # Context-free generation is only needed for parametric scoring (skipped in FAST_MODE)
+        if not config.FAST_MODE:
+            cf_gen = generate_answer(prompt, context_docs=[], with_context=False)
+            context_free_response = cf_gen["response"]
+        else:
+            context_free_response = ""
 
         # Step 3 — Extract claims
         claims = extract_claims(response)

@@ -24,5 +24,15 @@ def parametric_score(claim: str, context_free_response: str) -> float:
 
     Range: [0, 1]
     """
-    from modules.faithfulness import _entailment_single
-    return round(_entailment_single(context_free_response, claim), 4)
+    import config
+    if config.FAST_MODE:
+        return 0.5  # neutral — skipped in fast mode
+
+    # Extract the most relevant sentences from the context-free response before NLI,
+    # exactly as faithfulness.py does for context documents. Passing a full paragraph
+    # as the NLI premise causes the model to predict NEUTRAL (it's trained on sentence
+    # pairs), which gives near-0 entailment for all claims — the bug this fixes.
+    from modules.faithfulness import _entailment_single, _get_sentence_candidates
+    candidates = _get_sentence_candidates(context_free_response, claim)
+    premise = ' '.join(candidates)
+    return round(_entailment_single(premise, claim), 4)

@@ -1,0 +1,398 @@
+{
+  "model_score": 0.7374,
+  "fast_mode": true,
+  "generator_model": "mistral",
+  "claim_extractor_model": "gemma3:4b",
+  "prompts": [
+    {
+      "id": "p001",
+      "type": "factual",
+      "prompt": "What is the structure of DNA, and who determined it in 1953?",
+      "response": " The structure of DNA is a double-helix composed of two complementary strands wound around each other. Each strand is made of nucleotides, which consist of a sugar (deoxyribose), a phosphate group, and one of four nitrogenous bases: adenine (A), thymine (T), guanine (G), and cytosine (C). Adenine pairs with thymine, and guanine pairs with cytosine. The structure of DNA was determined in 1953 by James Watson and Francis Crick based on X-ray crystallography data produced by Rosalind Franklin and Raymond Gosling.",
+      "context": [
+        "Genetics and DNA\n\nDeoxyribonucleic acid, or DNA, is the molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known living organisms and many viruses. DNA is a double-helix structure composed of two complementary strands wound around each other. Each strand is made of nucleotides, which consist of a sugar (deoxyribose), a phosphate group, and one of four nitrogenous bases: adenine (A), thymine (T), guanine (G), and cytosine (C). Adenine pairs with thymine, and guanine pairs with cytosine, following the base-pairing rules discovered by Erwin Chargaff.\n\nThe structure of DNA was determined in 1953 by James Watson and Francis Crick, based on X-ray crystallography data produced by Rosalind Franklin and Raymond Gosling. The human genome contains approximately 3.2 billion base pairs organized into 23 pairs of chromosomes. Each chromosome contains hundreds to thousands of genes.\n\nA gene is a segment of DNA that encodes instructions for producing a protein or functional RNA molecule. The central dogma of molecular biology states that genetic information flows from DNA to RNA (transcription) and then from RNA to protein (translation). This process involves messenger RNA (mRNA), transfer RNA (tRNA), and ribosomes.\n\nGregor Mendel, an Austrian monk working in the 1860s, is considered the father of genetics. His experiments with pea plants established the laws of inheritance: the Law of Segregation (each organism carries two alleles for each trait, which separate during gamete formation) and the Law of Independent Assortment (genes for different traits segregate independently of one another). Mendel's work was rediscovered in 1900 by Hugo de Vries, Carl Correns, and Erich von Tschermak.\n\nAlleles are different versions of the same gene. A dominant allele masks the effect of a recessive allele. An organism's genotype is its genetic makeup, while the phenotype is the observable expression of those genes. Homozygous individuals carry two identical alleles; heterozygous individuals carry two different alleles.\n\nMutations are changes in the DNA sequence. Point mutations change a single nucleotide, while insertions and deletions add or remove nucleotides. Chromosomal mutations involve larger-scale changes, such as duplications, deletions, inversions, or translocations of chromosome segments. Some mutations are neutral, others are harmful, and a small fraction can be beneficial.\n\nGenetic inheritance patterns include autosomal dominant, autosomal recessive, X-linked, and mitochondrial inheritance. Huntington's disease is an example of an autosomal dominant disorder; cystic fibrosis is autosomal recessive; color blindness is X-linked recessive.\n\nThe Human Genome Project, completed in 2003, sequenced the entire human genome for the first time. Modern techniques like CRISPR-Cas9 allow scientists to edit specific DNA sequences with high precision, opening the door to potential treatments for genetic diseases.\n\nDNA replication is semi-conservative: each strand of the double helix serves as a template for a new strand. The enzyme DNA polymerase adds new nucleotides to the growing strand in the 5' to 3' direction. Other enzymes involved include helicase (unwinds the double helix), primase (creates RNA primers), and ligase (joins Okazaki fragments on the lagging strand).",
+        "Chemistry and the Periodic Table\n\nChemistry is the branch of science that studies the properties, composition, and transformation of matter. Matter is composed of atoms, the smallest units that retain the chemical properties of an element. An atom consists of a nucleus containing protons and neutrons, surrounded by electrons in shells or orbitals.\n\nThe number of protons in an atom's nucleus defines its atomic number and determines the element. For example, hydrogen has atomic number 1 (one proton), carbon has atomic number 6, and oxygen has atomic number 8. The atomic mass of an element is approximately equal to the sum of its protons and neutrons.\n\nDmitri Mendeleev, a Russian chemist, published the first widely recognized periodic table in 1869. He arranged elements by increasing atomic mass and noticed repeating patterns in their chemical properties. Mendeleev left gaps for undiscovered elements and correctly predicted the properties of several of them, including gallium and germanium. The modern periodic table organizes elements by atomic number and groups them into periods (horizontal rows) and groups (vertical columns).\n\nElements in the same group share similar chemical properties because they have the same number of valence electrons (electrons in the outermost shell). Group 1 elements (alkali metals) are highly reactive; Group 18 elements (noble gases) are largely inert. Metals, nonmetals, and metalloids are three broad classifications on the periodic table.\n\nChemical bonds hold atoms together in compounds. Ionic bonds form when electrons are transferred from one atom to another, creating oppositely charged ions that attract each other (e.g., sodium chloride, NaCl). Covalent bonds form when atoms share electrons (e.g., water, H2O; carbon dioxide, CO2). Metallic bonds involve a lattice of positive metal ions surrounded by a sea of delocalized electrons, which explains metals' conductivity and malleability.\n\nA chemical reaction involves the rearrangement of atoms to form new substances. Reactants are the starting materials; products are the substances formed. The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction. Chemical equations are balanced to reflect this law.\n\nThe mole is the standard unit for measuring amounts of substances in chemistry. One mole contains approximately 6.022 × 10^23 entities (atoms, molecules, or ions), known as Avogadro's number. The molar mass of an element (in grams per mole) equals its atomic mass in atomic mass units.\n\nAcids donate protons (H+) in solution; bases accept protons. The pH scale measures acidity and basicity from 0 (most acidic) to 14 (most basic), with 7 being neutral. Water has a pH of 7. The Brønsted-Lowry theory defines acids and bases in terms of proton transfer; the Lewis theory is broader and includes electron pair donors and acceptors.\n\nOrganic chemistry focuses on carbon-containing compounds. Carbon's ability to form four covalent bonds allows it to create chains, rings, and complex molecules. Hydrocarbons are compounds containing only carbon and hydrogen. Functional groups (hydroxyl, carboxyl, amino, etc.) give organic molecules their characteristic properties.\n\nThermochemistry studies energy changes in chemical reactions. Exothermic reactions release heat (negative enthalpy change, ΔH < 0); endothermic reactions absorb heat (ΔH > 0). Hess's Law states that the total enthalpy change for a reaction is independent of the pathway taken.",
+        "History of Medicine\n\nMedicine has evolved over thousands of years from ancient rituals and herbal remedies to evidence-based science and biotechnology. Key milestones have transformed humanity's ability to prevent and treat disease.\n\nThe ancient Egyptians and Greeks made early contributions to medicine. Hippocrates of Cos (c. 460–370 BCE) is often called the father of medicine. He emphasized clinical observation and natural explanations for disease, moving away from supernatural causes. The Hippocratic Oath, attributed to his tradition, established ethical standards for physicians.\n\nGalen of Pergamon (129–216 CE) dominated Western medical thought for over a millennium. His anatomical works, though containing errors (he dissected animals, not humans), were authoritative through the Middle Ages. Andreas Vesalius corrected many of Galen's errors in his 1543 work De Humani Corporis Fabrica, based on direct human dissection.\n\nWilliam Harvey described the circulatory system in 1628, demonstrating that blood circulates continuously through the body, pumped by the heart—a major advance over previous theories.\n\nThe germ theory of disease, developed in the 19th century, established that many diseases are caused by microorganisms. Louis Pasteur (1822–1895) demonstrated that microbes cause fermentation and putrefaction, and developed the process of pasteurization (heating liquids to kill harmful bacteria). He also developed vaccines against cholera and anthrax in animals, and a treatment for rabies in humans (1885). Robert Koch identified the bacteria responsible for tuberculosis (1882) and cholera (1883) and formulated Koch's postulates—criteria for establishing a causal relationship between a microbe and a disease.\n\nThe discovery of antibiotics revolutionized medicine. Alexander Fleming discovered penicillin in 1928 when he noticed that a Penicillium mold was killing bacteria on one of his petri dishes. Howard Florey and Ernst Chain developed it into a usable antibiotic in the early 1940s. The widespread use of antibiotics saved millions of lives and transformed bacterial infections from potentially fatal to routinely treatable. However, antibiotic resistance is now a growing global threat.\n\nVaccination has been one of the most effective public health interventions in history. Edward Jenner developed the first vaccine in 1796, using material from cowpox sores to protect against smallpox. Smallpox was declared eradicated in 1980 by the World Health Organization—the only human disease to have been eradicated through vaccination. The 20th century saw vaccines developed for polio, measles, hepatitis, and many other diseases.\n\nSurgical practice advanced dramatically in the 19th and 20th centuries. Before the mid-19th century, surgery was extremely dangerous due to pain and infection. The introduction of ether as a general anesthetic in 1846 and the development of antiseptic techniques by Joseph Lister (based on Pasteur's germ theory) dramatically improved surgical outcomes. The 20th century brought blood transfusions, organ transplants (first successful kidney transplant in 1954 by Joseph Murray), and minimally invasive (laparoscopic) surgery.\n\nMedical imaging transformed diagnosis in the 20th century. Wilhelm Röntgen discovered X-rays in 1895; within months they were used to image bones. Computed tomography (CT) scans and magnetic resonance imaging (MRI) later provided detailed three-dimensional images of internal organs without surgery.\n\nThe sequencing of the human genome (completed in 2003) opened the era of genomic medicine. Targeted therapies and monoclonal antibodies now treat cancers and autoimmune diseases that were previously untreatable. mRNA vaccine technology, first used at scale in the COVID-19 vaccines of 2020–2021, represents a new frontier in immunization."
+      ],
+      "claims": [
+        {
+          "text": "The structure of DNA is a double-helix.",
+          "faithfulness": 0.9983,
+          "confidence": 0.9693,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9948,
+          "franq_score": 0.9634,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The double-helix is composed of two complementary strands.",
+          "faithfulness": 0.9866,
+          "confidence": 0.9657,
+          "parametric": 0.5,
+          "contradiction": 0.0009,
+          "consistency": 0.9948,
+          "franq_score": 0.9536,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "Each strand is made of nucleotides.",
+          "faithfulness": 0.9976,
+          "confidence": 0.9862,
+          "parametric": 0.5,
+          "contradiction": 0.0002,
+          "consistency": 0.9948,
+          "franq_score": 0.9797,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "Nucleotides consist of a sugar (deoxyribose), a phosphate group, and one of four nitrogenous bases.",
+          "faithfulness": 0.9978,
+          "confidence": 0.9657,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9948,
+          "franq_score": 0.9596,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The four nitrogenous bases are adenine (A), thymine (T), guanine (G), and cytosine (C).",
+          "faithfulness": 0.9952,
+          "confidence": 0.9657,
+          "parametric": 0.5,
+          "contradiction": 0.0003,
+          "consistency": 0.9948,
+          "franq_score": 0.9582,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "Adenine pairs with thymine.",
+          "faithfulness": 0.9979,
+          "confidence": 0.9086,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9948,
+          "franq_score": 0.9029,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "Guanine pairs with cytosine.",
+          "faithfulness": 0.9947,
+          "confidence": 0.9419,
+          "parametric": 0.5,
+          "contradiction": 0.0005,
+          "consistency": 0.9948,
+          "franq_score": 0.9342,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The structure of DNA was determined in 1953.",
+          "faithfulness": 0.998,
+          "confidence": 0.9627,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9948,
+          "franq_score": 0.9567,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "James Watson and Francis Crick determined the structure of DNA.",
+          "faithfulness": 0.9982,
+          "confidence": 0.8562,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9948,
+          "franq_score": 0.851,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The determination was based on X-ray crystallography data.",
+          "faithfulness": 0.9966,
+          "confidence": 0.9657,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9948,
+          "franq_score": 0.959,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "Rosalind Franklin produced the X-ray crystallography data.",
+          "faithfulness": 0.9948,
+          "confidence": 0.9657,
+          "parametric": 0.5,
+          "contradiction": 0.0009,
+          "consistency": 0.9948,
+          "franq_score": 0.9574,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "Raymond Gosling produced the X-ray crystallography data.",
+          "faithfulness": 0.9943,
+          "confidence": 0.9657,
+          "parametric": 0.5,
+          "contradiction": 0.0006,
+          "consistency": 0.9948,
+          "franq_score": 0.9575,
+          "classification": "✅ Grounded Correct"
+        }
+      ],
+      "prompt_score": 0.9444,
+      "grounding_score": 0.9958,
+      "hallucination_rate": 0.0,
+      "calibration": -0.2429,
+      "consistency_score": 0.9948,
+      "relevance_score": 0.7467,
+      "completeness_score": 0.9429
+    },
+    {
+      "id": "p002",
+      "type": "factual",
+      "prompt": "Who published the first widely recognized periodic table and when?",
+      "response": " Dmitri Mendeleev published the first widely recognized periodic table in 1869.",
+      "context": [
+        "Chemistry and the Periodic Table\n\nChemistry is the branch of science that studies the properties, composition, and transformation of matter. Matter is composed of atoms, the smallest units that retain the chemical properties of an element. An atom consists of a nucleus containing protons and neutrons, surrounded by electrons in shells or orbitals.\n\nThe number of protons in an atom's nucleus defines its atomic number and determines the element. For example, hydrogen has atomic number 1 (one proton), carbon has atomic number 6, and oxygen has atomic number 8. The atomic mass of an element is approximately equal to the sum of its protons and neutrons.\n\nDmitri Mendeleev, a Russian chemist, published the first widely recognized periodic table in 1869. He arranged elements by increasing atomic mass and noticed repeating patterns in their chemical properties. Mendeleev left gaps for undiscovered elements and correctly predicted the properties of several of them, including gallium and germanium. The modern periodic table organizes elements by atomic number and groups them into periods (horizontal rows) and groups (vertical columns).\n\nElements in the same group share similar chemical properties because they have the same number of valence electrons (electrons in the outermost shell). Group 1 elements (alkali metals) are highly reactive; Group 18 elements (noble gases) are largely inert. Metals, nonmetals, and metalloids are three broad classifications on the periodic table.\n\nChemical bonds hold atoms together in compounds. Ionic bonds form when electrons are transferred from one atom to another, creating oppositely charged ions that attract each other (e.g., sodium chloride, NaCl). Covalent bonds form when atoms share electrons (e.g., water, H2O; carbon dioxide, CO2). Metallic bonds involve a lattice of positive metal ions surrounded by a sea of delocalized electrons, which explains metals' conductivity and malleability.\n\nA chemical reaction involves the rearrangement of atoms to form new substances. Reactants are the starting materials; products are the substances formed. The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction. Chemical equations are balanced to reflect this law.\n\nThe mole is the standard unit for measuring amounts of substances in chemistry. One mole contains approximately 6.022 × 10^23 entities (atoms, molecules, or ions), known as Avogadro's number. The molar mass of an element (in grams per mole) equals its atomic mass in atomic mass units.\n\nAcids donate protons (H+) in solution; bases accept protons. The pH scale measures acidity and basicity from 0 (most acidic) to 14 (most basic), with 7 being neutral. Water has a pH of 7. The Brønsted-Lowry theory defines acids and bases in terms of proton transfer; the Lewis theory is broader and includes electron pair donors and acceptors.\n\nOrganic chemistry focuses on carbon-containing compounds. Carbon's ability to form four covalent bonds allows it to create chains, rings, and complex molecules. Hydrocarbons are compounds containing only carbon and hydrogen. Functional groups (hydroxyl, carboxyl, amino, etc.) give organic molecules their characteristic properties.\n\nThermochemistry studies energy changes in chemical reactions. Exothermic reactions release heat (negative enthalpy change, ΔH < 0); endothermic reactions absorb heat (ΔH > 0). Hess's Law states that the total enthalpy change for a reaction is independent of the pathway taken.",
+        "History of Medicine\n\nMedicine has evolved over thousands of years from ancient rituals and herbal remedies to evidence-based science and biotechnology. Key milestones have transformed humanity's ability to prevent and treat disease.\n\nThe ancient Egyptians and Greeks made early contributions to medicine. Hippocrates of Cos (c. 460–370 BCE) is often called the father of medicine. He emphasized clinical observation and natural explanations for disease, moving away from supernatural causes. The Hippocratic Oath, attributed to his tradition, established ethical standards for physicians.\n\nGalen of Pergamon (129–216 CE) dominated Western medical thought for over a millennium. His anatomical works, though containing errors (he dissected animals, not humans), were authoritative through the Middle Ages. Andreas Vesalius corrected many of Galen's errors in his 1543 work De Humani Corporis Fabrica, based on direct human dissection.\n\nWilliam Harvey described the circulatory system in 1628, demonstrating that blood circulates continuously through the body, pumped by the heart—a major advance over previous theories.\n\nThe germ theory of disease, developed in the 19th century, established that many diseases are caused by microorganisms. Louis Pasteur (1822–1895) demonstrated that microbes cause fermentation and putrefaction, and developed the process of pasteurization (heating liquids to kill harmful bacteria). He also developed vaccines against cholera and anthrax in animals, and a treatment for rabies in humans (1885). Robert Koch identified the bacteria responsible for tuberculosis (1882) and cholera (1883) and formulated Koch's postulates—criteria for establishing a causal relationship between a microbe and a disease.\n\nThe discovery of antibiotics revolutionized medicine. Alexander Fleming discovered penicillin in 1928 when he noticed that a Penicillium mold was killing bacteria on one of his petri dishes. Howard Florey and Ernst Chain developed it into a usable antibiotic in the early 1940s. The widespread use of antibiotics saved millions of lives and transformed bacterial infections from potentially fatal to routinely treatable. However, antibiotic resistance is now a growing global threat.\n\nVaccination has been one of the most effective public health interventions in history. Edward Jenner developed the first vaccine in 1796, using material from cowpox sores to protect against smallpox. Smallpox was declared eradicated in 1980 by the World Health Organization—the only human disease to have been eradicated through vaccination. The 20th century saw vaccines developed for polio, measles, hepatitis, and many other diseases.\n\nSurgical practice advanced dramatically in the 19th and 20th centuries. Before the mid-19th century, surgery was extremely dangerous due to pain and infection. The introduction of ether as a general anesthetic in 1846 and the development of antiseptic techniques by Joseph Lister (based on Pasteur's germ theory) dramatically improved surgical outcomes. The 20th century brought blood transfusions, organ transplants (first successful kidney transplant in 1954 by Joseph Murray), and minimally invasive (laparoscopic) surgery.\n\nMedical imaging transformed diagnosis in the 20th century. Wilhelm Röntgen discovered X-rays in 1895; within months they were used to image bones. Computed tomography (CT) scans and magnetic resonance imaging (MRI) later provided detailed three-dimensional images of internal organs without surgery.\n\nThe sequencing of the human genome (completed in 2003) opened the era of genomic medicine. Targeted therapies and monoclonal antibodies now treat cancers and autoimmune diseases that were previously untreatable. mRNA vaccine technology, first used at scale in the COVID-19 vaccines of 2020–2021, represents a new frontier in immunization.",
+        "Astronomy: Stars, Galaxies, and the Universe\n\nAstronomy is the study of celestial objects, space, and the physical universe as a whole. It is one of the oldest sciences, with roots in ancient civilizations that tracked the movements of the Sun, Moon, and stars.\n\nThe observable universe is approximately 93 billion light-years in diameter. A light-year is the distance light travels in one year, approximately 9.461 × 10^15 meters (about 9.46 trillion kilometers). The universe is estimated to be about 13.8 billion years old, based on the Big Bang theory.\n\nThe Big Bang theory describes the origin of the universe from an extremely hot, dense state approximately 13.8 billion years ago. After the Big Bang, matter and energy expanded and cooled. Hydrogen and helium formed within the first few minutes. Gravity eventually caused matter to clump together, forming the first stars and galaxies hundreds of millions of years later. The cosmic microwave background (CMB) radiation, discovered in 1965 by Arno Penzias and Robert Wilson, is the residual thermal radiation from the early universe and provides strong support for the Big Bang theory.\n\nStars are massive, luminous balls of plasma held together by gravity. Nuclear fusion in the core converts hydrogen into helium, releasing enormous energy. The Sun is a medium-sized star classified as a G-type main-sequence star (yellow dwarf) with a surface temperature of about 5,500°C. The Sun is approximately 4.6 billion years old and lies about 150 million kilometers from Earth (one astronomical unit, or AU).\n\nStars are classified by the Harvard spectral system (O, B, A, F, G, K, M) from hottest to coolest. Massive stars (O and B types) burn quickly and end their lives as supernovae, potentially forming neutron stars or black holes. Lower-mass stars like the Sun eventually expand into red giants, shed their outer layers to form planetary nebulae, and leave behind a white dwarf.\n\nA black hole is a region of spacetime where gravity is so strong that nothing—not even light—can escape. Black holes form when massive stars collapse under their own gravity. The boundary around a black hole beyond which nothing can escape is called the event horizon. The concept was predicted by Einstein's general relativity, and the first image of a black hole's shadow (galaxy M87) was captured in 2019 by the Event Horizon Telescope.\n\nOur solar system contains eight recognized planets orbiting the Sun, in order of distance: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. The asteroid belt lies between Mars and Jupiter. Beyond Neptune is the Kuiper Belt, home to Pluto (classified as a dwarf planet since 2006) and other trans-Neptunian objects.\n\nGalaxies are vast systems containing billions of stars, gas, dust, and dark matter. The Milky Way is a barred spiral galaxy containing an estimated 200–400 billion stars. Our solar system lies in the Orion Arm, about 26,000 light-years from the galactic center. The nearest large galaxy to the Milky Way is the Andromeda Galaxy (M31), approximately 2.537 million light-years away. The two galaxies are expected to collide in approximately 4.5 billion years.\n\nDark matter is an unseen form of matter that does not interact with electromagnetic radiation but exerts gravitational effects on visible matter. It is estimated to make up about 27% of the universe's total mass-energy content. Dark energy, a mysterious form of energy driving the accelerating expansion of the universe, accounts for approximately 68%. Ordinary (baryonic) matter makes up only about 5%.\n\nExoplanets are planets orbiting stars other than the Sun. As of the mid-2020s, over 5,000 confirmed exoplanets have been discovered. The Kepler Space Telescope and TESS mission have been instrumental in detecting thousands of exoplanet candidates using the transit method (detecting the slight dimming of starlight as a planet passes in front of its star)."
+      ],
+      "claims": [
+        {
+          "text": "Dmitri Mendeleev published the first widely recognized periodic table in 1869.",
+          "faithfulness": 0.9964,
+          "confidence": 0.9979,
+          "parametric": 0.5,
+          "contradiction": 0.0002,
+          "consistency": 0.9891,
+          "franq_score": 0.9851,
+          "classification": "✅ Grounded Correct"
+        }
+      ],
+      "prompt_score": 0.9851,
+      "grounding_score": 0.9964,
+      "hallucination_rate": 0.0,
+      "calibration": 0.0,
+      "consistency_score": 0.9891,
+      "relevance_score": 0.8387,
+      "completeness_score": 0.9125
+    },
+    {
+      "id": "p003",
+      "type": "factual",
+      "prompt": "State Newton's Second Law of Motion and write its formula.",
+      "response": " The Second Law of Motion, as stated by Sir Isaac Newton, is known as F=ma (Force equals mass times acceleration). This law describes the relationship between the net force acting on an object, its mass, and the resulting acceleration. It is a fundamental principle in classical mechanics.",
+      "context": [
+        "Physics: Mechanics, Energy, and Relativity\n\nPhysics is the natural science that studies matter, energy, and the fundamental forces of nature. Classical mechanics, developed largely by Isaac Newton in the 17th century, describes the motion of macroscopic objects.\n\nNewton's Three Laws of Motion are the foundation of classical mechanics. The First Law (law of inertia) states that an object at rest remains at rest and an object in motion continues in motion with the same speed and direction unless acted upon by an external force. The Second Law states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass: F = ma (force equals mass times acceleration). The Third Law states that for every action there is an equal and opposite reaction.\n\nIsaac Newton was born on January 4, 1643 (Gregorian calendar) in Woolsthorpe, Lincolnshire, England. He published his landmark work, Philosophiae Naturalis Principia Mathematica, in 1687. In it he also described the Law of Universal Gravitation: every two masses attract each other with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. The gravitational constant G is approximately 6.674 × 10^-11 N·m²/kg².\n\nEnergy is the capacity to do work. The two primary forms in mechanics are kinetic energy (energy of motion, KE = ½mv²) and potential energy (stored energy, e.g., gravitational potential energy PE = mgh). The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed from one form to another.\n\nWork is done when a force moves an object through a distance: W = Fd·cosθ. Power is the rate of doing work: P = W/t, measured in watts (joules per second).\n\nThermodynamics governs heat and energy transfer. The First Law of Thermodynamics is a restatement of energy conservation applied to thermal systems. The Second Law states that entropy (disorder) in an isolated system always increases over time; heat naturally flows from hot to cold. The Third Law states that absolute zero (−273.15 °C or 0 K) cannot be reached by any finite process.\n\nAlbert Einstein published the Special Theory of Relativity in 1905, which introduced two postulates: the laws of physics are the same in all inertial frames, and the speed of light in a vacuum (approximately 3 × 10^8 m/s) is the same for all observers regardless of their motion. Consequences include time dilation (moving clocks run slower), length contraction, and the equivalence of mass and energy expressed by E = mc².\n\nEinstein's General Theory of Relativity, published in 1915, extended these ideas to include gravity. It describes gravity not as a force but as a curvature of spacetime caused by mass and energy. Predictions of general relativity include the bending of light near massive objects, gravitational time dilation, gravitational waves, and black holes.\n\nQuantum mechanics describes physics at the atomic and subatomic scale. Max Planck introduced the idea of energy quanta in 1900; Einstein applied it to light (photons) in 1905. The Heisenberg Uncertainty Principle states that the position and momentum of a particle cannot both be known simultaneously with arbitrary precision. The wave-particle duality means particles like electrons exhibit both wave-like and particle-like behaviors.\n\nWaves transfer energy without transferring matter. Waves are characterized by wavelength (λ), frequency (f), amplitude, and speed. The relationship between these is v = fλ. Sound travels as a longitudinal wave; light travels as a transverse electromagnetic wave. The electromagnetic spectrum, from longest to shortest wavelength, includes: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays.",
+        "Psychology: Learning, Motivation, and Cognition\n\nPsychology is the scientific study of the mind and behavior. It encompasses perception, cognition, emotion, personality, behavior, and interpersonal relationships.\n\nClassical conditioning, discovered by Ivan Pavlov (1849–1936) during his research on digestion in dogs, is a learning process in which a neutral stimulus becomes associated with a meaningful stimulus and acquires the capacity to elicit a similar response. In Pavlov's famous experiment, a bell (neutral stimulus) was paired repeatedly with food (unconditioned stimulus), until the bell alone could elicit salivation (conditioned response). The neutral stimulus becomes the conditioned stimulus after learning.\n\nB. F. Skinner developed operant conditioning, a learning process in which behavior is shaped by its consequences. Reinforcement (positive or negative) increases the likelihood of a behavior; punishment decreases it. A fixed-ratio schedule delivers reinforcement after a fixed number of responses; a variable-ratio schedule provides reinforcement after an unpredictable number of responses and produces the most persistent behavior.\n\nAbraham Maslow (1908–1970) proposed a hierarchy of human needs in 1943. The hierarchy, often depicted as a pyramid, has five levels: physiological needs (food, water, shelter) at the base, followed by safety needs, love and belonging, esteem, and self-actualization at the peak. Maslow argued that lower-level needs must be met before a person can focus on higher-level needs.\n\nCognitive psychology studies mental processes such as perception, memory, problem-solving, and language. Jean Piaget described four stages of cognitive development in children: sensorimotor (birth–2 years), preoperational (2–7 years), concrete operational (7–11 years), and formal operational (12 years and beyond). Lev Vygotsky emphasized the role of social interaction and culture in cognitive development and introduced the concept of the Zone of Proximal Development (ZPD).\n\nCognitive biases are systematic errors in thinking that affect decisions and judgments. The confirmation bias is the tendency to search for, interpret, and recall information in a way that confirms one's pre-existing beliefs. The availability heuristic is a mental shortcut that relies on immediate examples that come to mind when evaluating a topic. The anchoring effect refers to the tendency to rely heavily on the first piece of information encountered when making decisions.\n\nMemory has three major processes: encoding (converting information into a usable form), storage (retaining information over time), and retrieval (accessing stored information). The Atkinson-Shiffrin model divides memory into sensory memory, short-term memory (working memory), and long-term memory. Long-term memory is further divided into explicit (declarative) memory—including episodic and semantic memory—and implicit (non-declarative) memory.\n\nSocial psychology examines how people's thoughts, feelings, and behaviors are influenced by others. Stanley Milgram's obedience experiments (1961) showed that many ordinary people would follow authority figures' instructions to administer harmful levels of electric shocks to strangers. Philip Zimbardo's Stanford Prison Experiment (1971) studied how situational roles influence behavior.\n\nPositive psychology, founded largely by Martin Seligman in the late 1990s, focuses on strengths, virtues, and factors that help individuals and communities thrive, rather than on mental illness and pathology.\n\nPsychological disorders are diagnosed using criteria in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association. Common categories include anxiety disorders, mood disorders (depression, bipolar disorder), personality disorders, and psychotic disorders.",
+        "History of Medicine\n\nMedicine has evolved over thousands of years from ancient rituals and herbal remedies to evidence-based science and biotechnology. Key milestones have transformed humanity's ability to prevent and treat disease.\n\nThe ancient Egyptians and Greeks made early contributions to medicine. Hippocrates of Cos (c. 460–370 BCE) is often called the father of medicine. He emphasized clinical observation and natural explanations for disease, moving away from supernatural causes. The Hippocratic Oath, attributed to his tradition, established ethical standards for physicians.\n\nGalen of Pergamon (129–216 CE) dominated Western medical thought for over a millennium. His anatomical works, though containing errors (he dissected animals, not humans), were authoritative through the Middle Ages. Andreas Vesalius corrected many of Galen's errors in his 1543 work De Humani Corporis Fabrica, based on direct human dissection.\n\nWilliam Harvey described the circulatory system in 1628, demonstrating that blood circulates continuously through the body, pumped by the heart—a major advance over previous theories.\n\nThe germ theory of disease, developed in the 19th century, established that many diseases are caused by microorganisms. Louis Pasteur (1822–1895) demonstrated that microbes cause fermentation and putrefaction, and developed the process of pasteurization (heating liquids to kill harmful bacteria). He also developed vaccines against cholera and anthrax in animals, and a treatment for rabies in humans (1885). Robert Koch identified the bacteria responsible for tuberculosis (1882) and cholera (1883) and formulated Koch's postulates—criteria for establishing a causal relationship between a microbe and a disease.\n\nThe discovery of antibiotics revolutionized medicine. Alexander Fleming discovered penicillin in 1928 when he noticed that a Penicillium mold was killing bacteria on one of his petri dishes. Howard Florey and Ernst Chain developed it into a usable antibiotic in the early 1940s. The widespread use of antibiotics saved millions of lives and transformed bacterial infections from potentially fatal to routinely treatable. However, antibiotic resistance is now a growing global threat.\n\nVaccination has been one of the most effective public health interventions in history. Edward Jenner developed the first vaccine in 1796, using material from cowpox sores to protect against smallpox. Smallpox was declared eradicated in 1980 by the World Health Organization—the only human disease to have been eradicated through vaccination. The 20th century saw vaccines developed for polio, measles, hepatitis, and many other diseases.\n\nSurgical practice advanced dramatically in the 19th and 20th centuries. Before the mid-19th century, surgery was extremely dangerous due to pain and infection. The introduction of ether as a general anesthetic in 1846 and the development of antiseptic techniques by Joseph Lister (based on Pasteur's germ theory) dramatically improved surgical outcomes. The 20th century brought blood transfusions, organ transplants (first successful kidney transplant in 1954 by Joseph Murray), and minimally invasive (laparoscopic) surgery.\n\nMedical imaging transformed diagnosis in the 20th century. Wilhelm Röntgen discovered X-rays in 1895; within months they were used to image bones. Computed tomography (CT) scans and magnetic resonance imaging (MRI) later provided detailed three-dimensional images of internal organs without surgery.\n\nThe sequencing of the human genome (completed in 2003) opened the era of genomic medicine. Targeted therapies and monoclonal antibodies now treat cancers and autoimmune diseases that were previously untreatable. mRNA vaccine technology, first used at scale in the COVID-19 vaccines of 2020–2021, represents a new frontier in immunization."
+      ],
+      "claims": [
+        {
+          "text": "The Second Law of Motion, as stated by Sir Isaac Newton, is known as F=ma.",
+          "faithfulness": 0.0298,
+          "confidence": 0.7084,
+          "parametric": 0.5,
+          "contradiction": 0.4209,
+          "consistency": 0.9981,
+          "franq_score": 0.2926,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "This law describes the relationship between the net force acting on an object, its mass, and the resulting acceleration.",
+          "faithfulness": 0.9969,
+          "confidence": 0.8226,
+          "parametric": 0.5,
+          "contradiction": 0.0002,
+          "consistency": 0.9981,
+          "franq_score": 0.8199,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "It is a fundamental principle in classical mechanics.",
+          "faithfulness": 0.897,
+          "confidence": 0.6928,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9981,
+          "franq_score": 0.6716,
+          "classification": "✅ Grounded Correct"
+        }
+      ],
+      "prompt_score": 0.5947,
+      "grounding_score": 0.6412,
+      "hallucination_rate": 0.3333,
+      "calibration": 0.4859,
+      "consistency_score": 0.9981,
+      "relevance_score": 0.6717,
+      "completeness_score": 0.8826
+    },
+    {
+      "id": "p004",
+      "type": "factual",
+      "prompt": "Describe Pavlov's classical conditioning experiment with dogs.",
+      "response": " In Pavlov's classical conditioning experiment with dogs, he aimed to demonstrate how a neutral stimulus could acquire the ability to elicit a response similar to that of an unconditioned stimulus through association. The experiment involved presenting a dog with meat powder (unconditioned stimulus) which naturally caused salivation (unconditioned response). A bell (neutral stimulus) was then repeatedly rung just before the presentation of the meat powder until the dog began to salivate in response to the sound of the bell alone (conditioned response). The bell had become a conditioned stimulus that could elicit the same response as the unconditioned stimulus. This experiment demonstrated how learning can occur through association and is an example of classical conditioning.",
+      "context": [
+        "Psychology: Learning, Motivation, and Cognition\n\nPsychology is the scientific study of the mind and behavior. It encompasses perception, cognition, emotion, personality, behavior, and interpersonal relationships.\n\nClassical conditioning, discovered by Ivan Pavlov (1849–1936) during his research on digestion in dogs, is a learning process in which a neutral stimulus becomes associated with a meaningful stimulus and acquires the capacity to elicit a similar response. In Pavlov's famous experiment, a bell (neutral stimulus) was paired repeatedly with food (unconditioned stimulus), until the bell alone could elicit salivation (conditioned response). The neutral stimulus becomes the conditioned stimulus after learning.\n\nB. F. Skinner developed operant conditioning, a learning process in which behavior is shaped by its consequences. Reinforcement (positive or negative) increases the likelihood of a behavior; punishment decreases it. A fixed-ratio schedule delivers reinforcement after a fixed number of responses; a variable-ratio schedule provides reinforcement after an unpredictable number of responses and produces the most persistent behavior.\n\nAbraham Maslow (1908–1970) proposed a hierarchy of human needs in 1943. The hierarchy, often depicted as a pyramid, has five levels: physiological needs (food, water, shelter) at the base, followed by safety needs, love and belonging, esteem, and self-actualization at the peak. Maslow argued that lower-level needs must be met before a person can focus on higher-level needs.\n\nCognitive psychology studies mental processes such as perception, memory, problem-solving, and language. Jean Piaget described four stages of cognitive development in children: sensorimotor (birth–2 years), preoperational (2–7 years), concrete operational (7–11 years), and formal operational (12 years and beyond). Lev Vygotsky emphasized the role of social interaction and culture in cognitive development and introduced the concept of the Zone of Proximal Development (ZPD).\n\nCognitive biases are systematic errors in thinking that affect decisions and judgments. The confirmation bias is the tendency to search for, interpret, and recall information in a way that confirms one's pre-existing beliefs. The availability heuristic is a mental shortcut that relies on immediate examples that come to mind when evaluating a topic. The anchoring effect refers to the tendency to rely heavily on the first piece of information encountered when making decisions.\n\nMemory has three major processes: encoding (converting information into a usable form), storage (retaining information over time), and retrieval (accessing stored information). The Atkinson-Shiffrin model divides memory into sensory memory, short-term memory (working memory), and long-term memory. Long-term memory is further divided into explicit (declarative) memory—including episodic and semantic memory—and implicit (non-declarative) memory.\n\nSocial psychology examines how people's thoughts, feelings, and behaviors are influenced by others. Stanley Milgram's obedience experiments (1961) showed that many ordinary people would follow authority figures' instructions to administer harmful levels of electric shocks to strangers. Philip Zimbardo's Stanford Prison Experiment (1971) studied how situational roles influence behavior.\n\nPositive psychology, founded largely by Martin Seligman in the late 1990s, focuses on strengths, virtues, and factors that help individuals and communities thrive, rather than on mental illness and pathology.\n\nPsychological disorders are diagnosed using criteria in the Diagnostic and Statistical Manual of Mental Disorders (DSM), published by the American Psychiatric Association. Common categories include anxiety disorders, mood disorders (depression, bipolar disorder), personality disorders, and psychotic disorders.",
+        "History of Medicine\n\nMedicine has evolved over thousands of years from ancient rituals and herbal remedies to evidence-based science and biotechnology. Key milestones have transformed humanity's ability to prevent and treat disease.\n\nThe ancient Egyptians and Greeks made early contributions to medicine. Hippocrates of Cos (c. 460–370 BCE) is often called the father of medicine. He emphasized clinical observation and natural explanations for disease, moving away from supernatural causes. The Hippocratic Oath, attributed to his tradition, established ethical standards for physicians.\n\nGalen of Pergamon (129–216 CE) dominated Western medical thought for over a millennium. His anatomical works, though containing errors (he dissected animals, not humans), were authoritative through the Middle Ages. Andreas Vesalius corrected many of Galen's errors in his 1543 work De Humani Corporis Fabrica, based on direct human dissection.\n\nWilliam Harvey described the circulatory system in 1628, demonstrating that blood circulates continuously through the body, pumped by the heart—a major advance over previous theories.\n\nThe germ theory of disease, developed in the 19th century, established that many diseases are caused by microorganisms. Louis Pasteur (1822–1895) demonstrated that microbes cause fermentation and putrefaction, and developed the process of pasteurization (heating liquids to kill harmful bacteria). He also developed vaccines against cholera and anthrax in animals, and a treatment for rabies in humans (1885). Robert Koch identified the bacteria responsible for tuberculosis (1882) and cholera (1883) and formulated Koch's postulates—criteria for establishing a causal relationship between a microbe and a disease.\n\nThe discovery of antibiotics revolutionized medicine. Alexander Fleming discovered penicillin in 1928 when he noticed that a Penicillium mold was killing bacteria on one of his petri dishes. Howard Florey and Ernst Chain developed it into a usable antibiotic in the early 1940s. The widespread use of antibiotics saved millions of lives and transformed bacterial infections from potentially fatal to routinely treatable. However, antibiotic resistance is now a growing global threat.\n\nVaccination has been one of the most effective public health interventions in history. Edward Jenner developed the first vaccine in 1796, using material from cowpox sores to protect against smallpox. Smallpox was declared eradicated in 1980 by the World Health Organization—the only human disease to have been eradicated through vaccination. The 20th century saw vaccines developed for polio, measles, hepatitis, and many other diseases.\n\nSurgical practice advanced dramatically in the 19th and 20th centuries. Before the mid-19th century, surgery was extremely dangerous due to pain and infection. The introduction of ether as a general anesthetic in 1846 and the development of antiseptic techniques by Joseph Lister (based on Pasteur's germ theory) dramatically improved surgical outcomes. The 20th century brought blood transfusions, organ transplants (first successful kidney transplant in 1954 by Joseph Murray), and minimally invasive (laparoscopic) surgery.\n\nMedical imaging transformed diagnosis in the 20th century. Wilhelm Röntgen discovered X-rays in 1895; within months they were used to image bones. Computed tomography (CT) scans and magnetic resonance imaging (MRI) later provided detailed three-dimensional images of internal organs without surgery.\n\nThe sequencing of the human genome (completed in 2003) opened the era of genomic medicine. Targeted therapies and monoclonal antibodies now treat cancers and autoimmune diseases that were previously untreatable. mRNA vaccine technology, first used at scale in the COVID-19 vaccines of 2020–2021, represents a new frontier in immunization.",
+        "Physics: Mechanics, Energy, and Relativity\n\nPhysics is the natural science that studies matter, energy, and the fundamental forces of nature. Classical mechanics, developed largely by Isaac Newton in the 17th century, describes the motion of macroscopic objects.\n\nNewton's Three Laws of Motion are the foundation of classical mechanics. The First Law (law of inertia) states that an object at rest remains at rest and an object in motion continues in motion with the same speed and direction unless acted upon by an external force. The Second Law states that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass: F = ma (force equals mass times acceleration). The Third Law states that for every action there is an equal and opposite reaction.\n\nIsaac Newton was born on January 4, 1643 (Gregorian calendar) in Woolsthorpe, Lincolnshire, England. He published his landmark work, Philosophiae Naturalis Principia Mathematica, in 1687. In it he also described the Law of Universal Gravitation: every two masses attract each other with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. The gravitational constant G is approximately 6.674 × 10^-11 N·m²/kg².\n\nEnergy is the capacity to do work. The two primary forms in mechanics are kinetic energy (energy of motion, KE = ½mv²) and potential energy (stored energy, e.g., gravitational potential energy PE = mgh). The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed from one form to another.\n\nWork is done when a force moves an object through a distance: W = Fd·cosθ. Power is the rate of doing work: P = W/t, measured in watts (joules per second).\n\nThermodynamics governs heat and energy transfer. The First Law of Thermodynamics is a restatement of energy conservation applied to thermal systems. The Second Law states that entropy (disorder) in an isolated system always increases over time; heat naturally flows from hot to cold. The Third Law states that absolute zero (−273.15 °C or 0 K) cannot be reached by any finite process.\n\nAlbert Einstein published the Special Theory of Relativity in 1905, which introduced two postulates: the laws of physics are the same in all inertial frames, and the speed of light in a vacuum (approximately 3 × 10^8 m/s) is the same for all observers regardless of their motion. Consequences include time dilation (moving clocks run slower), length contraction, and the equivalence of mass and energy expressed by E = mc².\n\nEinstein's General Theory of Relativity, published in 1915, extended these ideas to include gravity. It describes gravity not as a force but as a curvature of spacetime caused by mass and energy. Predictions of general relativity include the bending of light near massive objects, gravitational time dilation, gravitational waves, and black holes.\n\nQuantum mechanics describes physics at the atomic and subatomic scale. Max Planck introduced the idea of energy quanta in 1900; Einstein applied it to light (photons) in 1905. The Heisenberg Uncertainty Principle states that the position and momentum of a particle cannot both be known simultaneously with arbitrary precision. The wave-particle duality means particles like electrons exhibit both wave-like and particle-like behaviors.\n\nWaves transfer energy without transferring matter. Waves are characterized by wavelength (λ), frequency (f), amplitude, and speed. The relationship between these is v = fλ. Sound travels as a longitudinal wave; light travels as a transverse electromagnetic wave. The electromagnetic spectrum, from longest to shortest wavelength, includes: radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays."
+      ],
+      "claims": [
+        {
+          "text": "Pavlov aimed to demonstrate how a neutral stimulus could acquire the ability to elicit a response similar to that of an unconditioned stimulus through association.",
+          "faithfulness": 0.0009,
+          "confidence": 0.7352,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9182,
+          "franq_score": 0.4592,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "The experiment involved presenting a dog with meat powder.",
+          "faithfulness": 0.0001,
+          "confidence": 0.5635,
+          "parametric": 0.5,
+          "contradiction": 0.6595,
+          "consistency": 0.9182,
+          "franq_score": 0.1563,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "Meat powder naturally caused salivation in the dog.",
+          "faithfulness": 0.9943,
+          "confidence": 0.7352,
+          "parametric": 0.5,
+          "contradiction": 0.0002,
+          "consistency": 0.9182,
+          "franq_score": 0.6737,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "A bell was repeatedly rung just before the presentation of the meat powder.",
+          "faithfulness": 0.9889,
+          "confidence": 0.7352,
+          "parametric": 0.5,
+          "contradiction": 0.0059,
+          "consistency": 0.9182,
+          "franq_score": 0.6687,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The dog began to salivate in response to the sound of the bell alone.",
+          "faithfulness": 0.9698,
+          "confidence": 0.7533,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9182,
+          "franq_score": 0.6846,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The bell had become a conditioned stimulus.",
+          "faithfulness": 0.98,
+          "confidence": 0.7081,
+          "parametric": 0.5,
+          "contradiction": 0.0005,
+          "consistency": 0.9182,
+          "franq_score": 0.646,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The bell could elicit the same response as the unconditioned stimulus.",
+          "faithfulness": 0.162,
+          "confidence": 0.7352,
+          "parametric": 0.5,
+          "contradiction": 0.0984,
+          "consistency": 0.9182,
+          "franq_score": 0.4455,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "This experiment demonstrated how learning can occur through association.",
+          "faithfulness": 0.2691,
+          "confidence": 0.4687,
+          "parametric": 0.5,
+          "contradiction": 0.0003,
+          "consistency": 0.9182,
+          "franq_score": 0.4512,
+          "classification": "🤔 Lucky Correct"
+        }
+      ],
+      "prompt_score": 0.5232,
+      "grounding_score": 0.5456,
+      "hallucination_rate": 0.5,
+      "calibration": 0.4688,
+      "consistency_score": 0.9182,
+      "relevance_score": 0.7989,
+      "completeness_score": 0.864
+    },
+    {
+      "id": "p005",
+      "type": "factual",
+      "prompt": "How many essential amino acids are there, and what does essential mean in nutrition?",
+      "response": " In nutrition, essential amino acids refer to nine specific amino acids that cannot be synthesized by the human body and must be obtained through diet. These essential amino acids are histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine. The term \"essential\" means that these amino acids must be consumed as part of the diet to maintain good health.",
+      "context": [
+        "Nutrition and Human Metabolism\n\nNutrition is the science of how food and drink affect the body. The nutrients obtained from food are divided into macronutrients and micronutrients.\n\nMacronutrients provide energy and include carbohydrates, proteins, and fats. Carbohydrates are the body's primary energy source. They are broken down into glucose, which cells use for energy via glycolysis and the citric acid cycle. Simple carbohydrates (sugars) are digested quickly; complex carbohydrates (starches and fiber) are digested more slowly and provide sustained energy. Fiber, a form of indigestible carbohydrate, promotes digestive health and helps regulate blood sugar.\n\nProteins are composed of amino acids linked by peptide bonds. There are 20 standard amino acids, of which 9 are essential (must be obtained from diet): histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine. Proteins serve structural roles (collagen, keratin), enzymatic roles, immune functions (antibodies), and transport roles (hemoglobin). The recommended dietary allowance (RDA) for protein is approximately 0.8 grams per kilogram of body weight per day for adults.\n\nFats (lipids) are a concentrated energy source, providing 9 kilocalories per gram, compared to 4 kilocalories per gram for carbohydrates and proteins. Fats are categorized as saturated (solid at room temperature, found in animal products), unsaturated (liquid at room temperature, found in plant oils and fish), and trans fats (artificially created by hydrogenation; associated with increased cardiovascular risk). Essential fatty acids, including omega-3 and omega-6 fatty acids, cannot be synthesized by the body and must be consumed through diet.\n\nMicronutrients include vitamins and minerals required in small amounts. Fat-soluble vitamins (A, D, E, K) are stored in the body's fatty tissue and liver. Water-soluble vitamins (B-complex and C) are not stored in large amounts and must be consumed regularly. Vitamin C (ascorbic acid) is essential for collagen synthesis and immune function; deficiency causes scurvy. Vitamin D is synthesized in the skin upon sun exposure and is necessary for calcium absorption; deficiency leads to rickets in children and osteomalacia in adults.\n\nKey minerals include calcium (bone and teeth formation, nerve transmission), iron (hemoglobin production; deficiency causes anemia), potassium (fluid balance, nerve signals), and sodium (fluid regulation; excess is linked to hypertension).\n\nMetabolism refers to all chemical reactions in the body that maintain life. The basal metabolic rate (BMR) is the amount of energy expended at rest over a given time period. BMR accounts for roughly 60–75% of total daily energy expenditure for most people. Total daily energy expenditure (TDEE) includes BMR plus the thermic effect of food and physical activity energy expenditure.\n\nThe glycemic index (GI) is a ranking of carbohydrate foods based on how quickly they raise blood glucose levels. Foods with a high GI (white bread, sugary drinks) cause rapid blood sugar spikes; low-GI foods (legumes, whole grains) cause slower, more gradual rises.\n\nDietary guidelines around the world generally recommend a diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats while limiting added sugars, saturated fats, sodium, and processed foods.\n\nMalnutrition encompasses both undernutrition (insufficient intake of calories or nutrients) and overnutrition (excessive caloric intake, leading to obesity). Obesity is associated with increased risk of type 2 diabetes, cardiovascular disease, and certain cancers. The body mass index (BMI), calculated as weight in kilograms divided by height in meters squared, is a common (though imperfect) screening tool for weight categories.",
+        "Genetics and DNA\n\nDeoxyribonucleic acid, or DNA, is the molecule that carries the genetic instructions for the development, functioning, growth, and reproduction of all known living organisms and many viruses. DNA is a double-helix structure composed of two complementary strands wound around each other. Each strand is made of nucleotides, which consist of a sugar (deoxyribose), a phosphate group, and one of four nitrogenous bases: adenine (A), thymine (T), guanine (G), and cytosine (C). Adenine pairs with thymine, and guanine pairs with cytosine, following the base-pairing rules discovered by Erwin Chargaff.\n\nThe structure of DNA was determined in 1953 by James Watson and Francis Crick, based on X-ray crystallography data produced by Rosalind Franklin and Raymond Gosling. The human genome contains approximately 3.2 billion base pairs organized into 23 pairs of chromosomes. Each chromosome contains hundreds to thousands of genes.\n\nA gene is a segment of DNA that encodes instructions for producing a protein or functional RNA molecule. The central dogma of molecular biology states that genetic information flows from DNA to RNA (transcription) and then from RNA to protein (translation). This process involves messenger RNA (mRNA), transfer RNA (tRNA), and ribosomes.\n\nGregor Mendel, an Austrian monk working in the 1860s, is considered the father of genetics. His experiments with pea plants established the laws of inheritance: the Law of Segregation (each organism carries two alleles for each trait, which separate during gamete formation) and the Law of Independent Assortment (genes for different traits segregate independently of one another). Mendel's work was rediscovered in 1900 by Hugo de Vries, Carl Correns, and Erich von Tschermak.\n\nAlleles are different versions of the same gene. A dominant allele masks the effect of a recessive allele. An organism's genotype is its genetic makeup, while the phenotype is the observable expression of those genes. Homozygous individuals carry two identical alleles; heterozygous individuals carry two different alleles.\n\nMutations are changes in the DNA sequence. Point mutations change a single nucleotide, while insertions and deletions add or remove nucleotides. Chromosomal mutations involve larger-scale changes, such as duplications, deletions, inversions, or translocations of chromosome segments. Some mutations are neutral, others are harmful, and a small fraction can be beneficial.\n\nGenetic inheritance patterns include autosomal dominant, autosomal recessive, X-linked, and mitochondrial inheritance. Huntington's disease is an example of an autosomal dominant disorder; cystic fibrosis is autosomal recessive; color blindness is X-linked recessive.\n\nThe Human Genome Project, completed in 2003, sequenced the entire human genome for the first time. Modern techniques like CRISPR-Cas9 allow scientists to edit specific DNA sequences with high precision, opening the door to potential treatments for genetic diseases.\n\nDNA replication is semi-conservative: each strand of the double helix serves as a template for a new strand. The enzyme DNA polymerase adds new nucleotides to the growing strand in the 5' to 3' direction. Other enzymes involved include helicase (unwinds the double helix), primase (creates RNA primers), and ligase (joins Okazaki fragments on the lagging strand).",
+        "Chemistry and the Periodic Table\n\nChemistry is the branch of science that studies the properties, composition, and transformation of matter. Matter is composed of atoms, the smallest units that retain the chemical properties of an element. An atom consists of a nucleus containing protons and neutrons, surrounded by electrons in shells or orbitals.\n\nThe number of protons in an atom's nucleus defines its atomic number and determines the element. For example, hydrogen has atomic number 1 (one proton), carbon has atomic number 6, and oxygen has atomic number 8. The atomic mass of an element is approximately equal to the sum of its protons and neutrons.\n\nDmitri Mendeleev, a Russian chemist, published the first widely recognized periodic table in 1869. He arranged elements by increasing atomic mass and noticed repeating patterns in their chemical properties. Mendeleev left gaps for undiscovered elements and correctly predicted the properties of several of them, including gallium and germanium. The modern periodic table organizes elements by atomic number and groups them into periods (horizontal rows) and groups (vertical columns).\n\nElements in the same group share similar chemical properties because they have the same number of valence electrons (electrons in the outermost shell). Group 1 elements (alkali metals) are highly reactive; Group 18 elements (noble gases) are largely inert. Metals, nonmetals, and metalloids are three broad classifications on the periodic table.\n\nChemical bonds hold atoms together in compounds. Ionic bonds form when electrons are transferred from one atom to another, creating oppositely charged ions that attract each other (e.g., sodium chloride, NaCl). Covalent bonds form when atoms share electrons (e.g., water, H2O; carbon dioxide, CO2). Metallic bonds involve a lattice of positive metal ions surrounded by a sea of delocalized electrons, which explains metals' conductivity and malleability.\n\nA chemical reaction involves the rearrangement of atoms to form new substances. Reactants are the starting materials; products are the substances formed. The Law of Conservation of Mass states that mass is neither created nor destroyed in a chemical reaction. Chemical equations are balanced to reflect this law.\n\nThe mole is the standard unit for measuring amounts of substances in chemistry. One mole contains approximately 6.022 × 10^23 entities (atoms, molecules, or ions), known as Avogadro's number. The molar mass of an element (in grams per mole) equals its atomic mass in atomic mass units.\n\nAcids donate protons (H+) in solution; bases accept protons. The pH scale measures acidity and basicity from 0 (most acidic) to 14 (most basic), with 7 being neutral. Water has a pH of 7. The Brønsted-Lowry theory defines acids and bases in terms of proton transfer; the Lewis theory is broader and includes electron pair donors and acceptors.\n\nOrganic chemistry focuses on carbon-containing compounds. Carbon's ability to form four covalent bonds allows it to create chains, rings, and complex molecules. Hydrocarbons are compounds containing only carbon and hydrogen. Functional groups (hydroxyl, carboxyl, amino, etc.) give organic molecules their characteristic properties.\n\nThermochemistry studies energy changes in chemical reactions. Exothermic reactions release heat (negative enthalpy change, ΔH < 0); endothermic reactions absorb heat (ΔH > 0). Hess's Law states that the total enthalpy change for a reaction is independent of the pathway taken."
+      ],
+      "claims": [
+        {
+          "text": "Essential amino acids refer to nine specific amino acids.",
+          "faithfulness": 0.9962,
+          "confidence": 0.8633,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9971,
+          "franq_score": 0.8593,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "These essential amino acids cannot be synthesized by the human body.",
+          "faithfulness": 0.0618,
+          "confidence": 0.9434,
+          "parametric": 0.5,
+          "contradiction": 0.7634,
+          "consistency": 0.9971,
+          "franq_score": 0.1244,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "These essential amino acids must be obtained through diet.",
+          "faithfulness": 0.0326,
+          "confidence": 0.9283,
+          "parametric": 0.5,
+          "contradiction": 0.0001,
+          "consistency": 0.9971,
+          "franq_score": 0.5124,
+          "classification": "🤔 Lucky Correct"
+        },
+        {
+          "text": "The essential amino acids are histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine.",
+          "faithfulness": 0.9975,
+          "confidence": 0.8568,
+          "parametric": 0.5,
+          "contradiction": 0.0002,
+          "consistency": 0.9971,
+          "franq_score": 0.8533,
+          "classification": "✅ Grounded Correct"
+        },
+        {
+          "text": "The term 'essential' means that these amino acids must be consumed as part of the diet.",
+          "faithfulness": 0.9874,
+          "confidence": 0.8568,
+          "parametric": 0.5,
+          "contradiction": 0.0005,
+          "consistency": 0.9971,
+          "franq_score": 0.8494,
+          "classification": "✅ Grounded Correct"
+        }
+      ],
+      "prompt_score": 0.6398,
+      "grounding_score": 0.6151,
+      "hallucination_rate": 0.4,
+      "calibration": -0.9872,
+      "consistency_score": 0.9971,
+      "relevance_score": 0.8409,
+      "completeness_score": 0.9224
+    }
+  ]
+}

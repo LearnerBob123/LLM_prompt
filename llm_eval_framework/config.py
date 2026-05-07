@@ -4,11 +4,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+DATA_DIR = "data2"
+
 # ── Ollama Settings ─────────────────────────────────────────────────────────
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
 
 # Primary generator (main RAG answers)
-GENERATOR_MODEL = "llama3.2"
+# GENERATOR_MODEL = "llama3.2"
+GENERATOR_MODEL = "mistral"
 # Claim extractor — best JSON mode adherence
 CLAIM_EXTRACTOR_MODEL = "gemma3:4b"
 # Lightweight model for consistency re-sampling
@@ -31,9 +34,9 @@ FAITHFULNESS_THRESHOLD = 0.5
 CONFIDENCE_THRESHOLD = 0.4
 
 # ── Paths ────────────────────────────────────────────────────────────────────
-KNOWLEDGE_BASE_DIR = "data/knowledge_base/"
-PROMPTS_FILE = "data/prompts.json"
-GROUND_TRUTH_FILE = "data/ground_truth.json"
-RESPONSES_FILE = "outputs/responses.json"
-CLAIMS_FILE = "outputs/claims.json"
-RESULTS_FILE = "outputs/results.json"
+KNOWLEDGE_BASE_DIR = f"{DATA_DIR}/knowledge_base/"
+PROMPTS_FILE = f"{DATA_DIR}/prompts.json"
+GROUND_TRUTH_FILE = f"{DATA_DIR}/ground_truth.json"
+RESPONSES_FILE = f"outputs/responses_{GENERATOR_MODEL}_{DATA_DIR}.json"
+CLAIMS_FILE = f"outputs/claims_{GENERATOR_MODEL}_{DATA_DIR}.json"
+RESULTS_FILE = f"outputs/results_{GENERATOR_MODEL}_{DATA_DIR}.json"
